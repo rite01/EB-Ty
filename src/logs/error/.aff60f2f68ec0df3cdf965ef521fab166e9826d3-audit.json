@@ -1,0 +1,85 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/thoughtwin/Documents/EB_Ty/src/logs/error/.aff60f2f68ec0df3cdf965ef521fab166e9826d3-audit.json",
+    "files": [
+        {
+            "date": 1669806167171,
+            "name": "/home/thoughtwin/Documents/EB_Ty/src/logs/error/2022-11-30.log",
+            "hash": "803753c197be7ff7e33c259920ad5cafe4234202d3cd2818856a7a9bf50eac15"
+        },
+        {
+            "date": 1669875826556,
+            "name": "/home/thoughtwin/Documents/EB_Ty/src/logs/error/2022-12-01.log",
+            "hash": "53c90284c291948842d6f148fba212e772dcb0b76dabb2a35aa4950f46a4e726"
+        },
+        {
+            "date": 1669959325813,
+            "name": "/home/thoughtwin/Documents/EB_Ty/src/logs/error/2022-12-02.log",
+            "hash": "0895084e5be53e53eeadc75822fd88ba9bcfcf7c8d894c5b5b3b2bd760e039fb"
+        },
+        {
+            "date": 1670220027388,
+            "name": "/home/thoughtwin/Documents/EB_Ty/src/logs/error/2022-12-05.log",
+            "hash": "ffc2d7b56641d790331d78d52738decf3a2447c93728e289fa37a461a1b4ad71"
+        },
+        {
+            "date": 1670307296326,
+            "name": "/home/thoughtwin/Documents/EB_Ty/src/logs/error/2022-12-06.log",
+            "hash": "ac3fadd31accbc6ed7474abca2736e814d35bad63af4ed54fddb2771641bebd7"
+        },
+        {
+            "date": 1670393694404,
+            "name": "/home/thoughtwin/Documents/EB_Ty/src/logs/error/2022-12-07.log",
+            "hash": "526b057c6b0b9c7ace2339785907ca948f4e62e33a76f73d54dd2c8935f786c3"
+        },
+        {
+            "date": 1670480270501,
+            "name": "/home/thoughtwin/Documents/EB_Ty/src/logs/error/2022-12-08.log",
+            "hash": "1246c9ccd79800e67424f6b1230f9ac5c77a0e2c8b8f082f19d9846324d9a5f9"
+        },
+        {
+            "date": 1670563998985,
+            "name": "/home/thoughtwin/Documents/EB_Ty/src/logs/error/2022-12-09.log",
+            "hash": "760bd8acdb68bab68552b27817134346a07a585e160a48628d3aaab76e867f52"
+        },
+        {
+            "date": 1670823207263,
+            "name": "/home/thoughtwin/Documents/EB_Ty/src/logs/error/2022-12-12.log",
+            "hash": "ac05eb645d475e11cb01c991fc47e190cdd02cc3b403a75cf9b8decf9b0e6725"
+        },
+        {
+            "date": 1670910337460,
+            "name": "/home/thoughtwin/Documents/EB_Ty/src/logs/error/2022-12-13.log",
+            "hash": "ef3485927a8f83ad31ccce6fd0389f5c3a4ababfd4faaa6e93eec9dab8dd1a57"
+        },
+        {
+            "date": 1671014684947,
+            "name": "/home/thoughtwin/Documents/EB_Ty/src/logs/error/2022-12-14.log",
+            "hash": "fe0e139f3c9a5f213279285e47a7a32aa9353c1c183f43a274273b9e2df4f3bb"
+        },
+        {
+            "date": 1671082519171,
+            "name": "/home/thoughtwin/Documents/EB_Ty/src/logs/error/2022-12-15.log",
+            "hash": "6973422e09dadce6051c37f44cc48cd017f3553f98cc740fb587a6426d6bf8a4"
+        },
+        {
+            "date": 1671168667895,
+            "name": "/home/thoughtwin/Documents/EB_Ty/src/logs/error/2022-12-16.log",
+            "hash": "e5689894d04eace05367970b73a1269b0f51815ad3bb441f5602a9bf667f5097"
+        },
+        {
+            "date": 1671427666687,
+            "name": "/home/thoughtwin/Documents/EB_Ty/src/logs/error/2022-12-19.log",
+            "hash": "4d69900bb7ffa7dacb05d2cf79feff00ddecd3af19b5287945cbec304a765bf4"
+        },
+        {
+            "date": 1671515926821,
+            "name": "/home/thoughtwin/Documents/EB_Ty/src/logs/error/2022-12-20.log",
+            "hash": "549c91623a66619431a0e3dd20077abc8c645ab40a0ecbbcd4d5637fb381716f"
+        }
+    ],
+    "hashType": "sha256"
+}

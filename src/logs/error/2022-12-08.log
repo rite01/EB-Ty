@@ -1,0 +1,2042 @@
+[Node] [ERROR] - 2022-12-08T11:15:11.327Z500 - /api/v1/getAll [GET] - Cannot read properties of undefined (reading 'findAll') 
+[Node] [ERROR] - 2022-12-08T11:22:20.426Z500 - /api/v1/getAll [GET] - Cannot read properties of undefined (reading 'findAll') 
+[Node] [ERROR] - 2022-12-08T11:23:06.411Z500 - /api/v1/getAll [GET] - Cannot read properties of undefined (reading 'findAll') 
+[Node] [ERROR] - 2022-12-08T11:23:32.733Z500 - /api/v1/getAll [GET] - Cannot read properties of undefined (reading 'findAll') 
+[Node] [ERROR] - 2022-12-08T12:27:19.972Z500 - /api/v1/getAll [GET] - Cannot read properties of undefined (reading 'findAll') 
+[Node] [ERROR] - 2022-12-08T12:30:02.825ZuncaughtException: Cannot read properties of undefined (reading 'role')
+TypeError: Cannot read properties of undefined (reading 'role')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:16:29)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:09:27.026Z500 - /api/v1/getAll [GET] - Cannot read properties of undefined (reading 'findAll') 
+[Node] [ERROR] - 2022-12-08T13:09:49.606ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m74[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'lo'.
+
+[7m74[0m     console.log(lo);
+[7m  [0m [91m                ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m74[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'lo'.
+
+[7m74[0m     console.log(lo);
+[7m  [0m [91m                ~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-08T13:10:04.547Z500 - /api/v1/getAll [GET] - Cannot read properties of undefined (reading 'findAll') 
+[Node] [ERROR] - 2022-12-08T13:19:48.546ZuncaughtException: listen EADDRINUSE: address already in use :::4001
+Error: listen EADDRINUSE: address already in use :::4001
+    at Server.setupListenHandle [as _listen2] (node:net:1380:16)
+    at listenInCluster (node:net:1428:12)
+    at Server.listen (node:net:1516:7)
+    at Function.listen (/home/thoughtwin/Documents/EB_Ty/node_modules/express/lib/application.js:635:24)
+    at App.listen (/home/thoughtwin/Documents/EB_Ty/src/app.ts:63:28)
+    at /home/thoughtwin/Documents/EB_Ty/src/app.ts:51:14
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:24:50.298Z500 - /api/v1/get/profile [GET] - Cannot read properties of undefined (reading 'findAll') 
+[Node] [ERROR] - 2022-12-08T13:24:52.023Z500 - /api/v1/get/profile [GET] - Cannot read properties of undefined (reading 'findAll') 
+[Node] [ERROR] - 2022-12-08T13:25:08.741ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m40[0m:[93m39[0m - [91merror[0m[90m TS2663: [0mCannot find name 'profile'. Did you mean the instance member 'this.profile'?
+
+[7m40[0m     const userProfileGet: any = await profile.findAll({});
+[7m  [0m [91m                                      ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m40[0m:[93m39[0m - [91merror[0m[90m TS2663: [0mCannot find name 'profile'. Did you mean the instance member 'this.profile'?
+
+[7m40[0m     const userProfileGet: any = await profile.findAll({});
+[7m  [0m [91m                                      ~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-08T13:27:12.153ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/index.ts[0m:[93m33[0m:[93m3[0m - [91merror[0m[90m TS2304: [0mCannot find name 'log'.
+
+[7m33[0m   log
+[7m  [0m [91m  ~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/index.ts[0m:[93m33[0m:[93m3[0m - [91merror[0m[90m TS2304: [0mCannot find name 'log'.
+
+[7m33[0m   log
+[7m  [0m [91m  ~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-08T13:27:29.098Z500 - /api/v1/get/profile [GET] - Cannot read properties of undefined (reading 'findAll') 
+[Node] [ERROR] - 2022-12-08T13:27:57.009ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/index.ts[0m:[93m33[0m:[93m14[0m - [91merror[0m[90m TS2304: [0mCannot find name 'req'.
+
+[7m33[0m db.profile = req
+[7m  [0m [91m             ~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/index.ts[0m:[93m33[0m:[93m14[0m - [91merror[0m[90m TS2304: [0mCannot find name 'req'.
+
+[7m33[0m db.profile = req
+[7m  [0m [91m             ~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-08T13:28:19.665ZuncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:33:38)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/app.ts:10:1)
+[Node] [ERROR] - 2022-12-08T13:29:22.934ZuncaughtException: Cannot find module './tutorial.model.js'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+Error: Cannot find module './tutorial.model.js'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/thoughtwin/Documents/EB_Ty/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:33:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+[Node] [ERROR] - 2022-12-08T13:29:36.909ZuncaughtException: Cannot find module './tutorial.model.js'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+Error: Cannot find module './tutorial.model.js'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/thoughtwin/Documents/EB_Ty/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+[Node] [ERROR] - 2022-12-08T13:29:44.450ZuncaughtException: Cannot find module './tutorial.model.js'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+Error: Cannot find module './tutorial.model.js'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/thoughtwin/Documents/EB_Ty/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+[Node] [ERROR] - 2022-12-08T13:29:51.862ZuncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:38)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/app.ts:10:1)
+[Node] [ERROR] - 2022-12-08T13:30:05.966ZuncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:41)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/app.ts:10:1)
+[Node] [ERROR] - 2022-12-08T13:30:57.966ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/index.ts[0m:[93m29[0m:[93m8[0m - [91merror[0m[90m TS2304: [0mCannot find name 'then'.
+
+[7m29[0m       .then(({ default: defaultFunction }) => defaultFunction(
+[7m  [0m [91m       ~~~~[0m
+[96msrc/databases/models/index.ts[0m:[93m34[0m:[93m8[0m - [91merror[0m[90m TS2538: [0mType 'void' cannot be used as an index type.
+
+[7m34[0m     db[model] = model;
+[7m  [0m [91m       ~~~~~[0m
+[96msrc/databases/models/index.ts[0m:[93m29[0m:[93m7[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m29[0m       .then(({ default: defaultFunction }) => defaultFunction(
+[7m  [0m [91m      ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/index.ts[0m:[93m29[0m:[93m8[0m - [91merror[0m[90m TS2304: [0mCannot find name 'then'.
+
+[7m29[0m       .then(({ default: defaultFunction }) => defaultFunction(
+[7m  [0m [91m       ~~~~[0m
+[96msrc/databases/models/index.ts[0m:[93m34[0m:[93m8[0m - [91merror[0m[90m TS2538: [0mType 'void' cannot be used as an index type.
+
+[7m34[0m     db[model] = model;
+[7m  [0m [91m       ~~~~~[0m
+[96msrc/databases/models/index.ts[0m:[93m29[0m:[93m7[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m29[0m       .then(({ default: defaultFunction }) => defaultFunction(
+[7m  [0m [91m      ~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-08T13:31:55.165ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m12[0m:[93m11[0m - [91merror[0m[90m TS2391: [0mFunction implementation is missing or not immediately following the declaration.
+
+[7m12[0m   console.log({db});
+[7m  [0m [91m          ~~~[0m
+[96msrc/services/user/index.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m12[0m   console.log({db});
+[7m  [0m [91m  ~~~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m12[0m:[93m10[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m12[0m   console.log({db});
+[7m  [0m [91m         ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m12[0m:[93m11[0m - [91merror[0m[90m TS2391: [0mFunction implementation is missing or not immediately following the declaration.
+
+[7m12[0m   console.log({db});
+[7m  [0m [91m          ~~~[0m
+[96msrc/services/user/index.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m12[0m   console.log({db});
+[7m  [0m [91m  ~~~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m12[0m:[93m10[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m12[0m   console.log({db});
+[7m  [0m [91m         ~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-08T13:32:00.363ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m12[0m:[93m60[0m - [91merror[0m[90m TS2339: [0mProperty 'createUser' does not exist on type 'UserService'.
+
+[7m12[0m       const createUserData: IUser = await this.userService.createUser({ ...userData });
+[7m  [0m [91m                                                           ~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m23[0m:[93m52[0m - [91merror[0m[90m TS2339: [0mProperty 'login' does not exist on type 'UserService'.
+
+[7m23[0m       const { tokenData } = await this.userService.login(userData);
+[7m  [0m [91m                                                   ~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m33[0m:[93m55[0m - [91merror[0m[90m TS2339: [0mProperty 'findAllUser' does not exist on type 'UserService'.
+
+[7m33[0m       const findAllUsersData = await this.userService.findAllUser();
+[7m  [0m [91m                                                      ~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m44[0m:[93m61[0m - [91merror[0m[90m TS2339: [0mProperty 'findUserById' does not exist on type 'UserService'.
+
+[7m44[0m       const findOneUserData: IUser = await this.userService.findUserById(userId);
+[7m  [0m [91m                                                            ~~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m55[0m:[93m57[0m - [91merror[0m[90m TS2339: [0mProperty 'createUserProfile' does not exist on type 'UserService'.
+
+[7m55[0m       const ProfileData: IUser = await this.userService.createUserProfile({ ...userProfileData });
+[7m  [0m [91m                                                        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m66[0m:[93m63[0m - [91merror[0m[90m TS2339: [0mProperty 'findAllUserProfile' does not exist on type 'UserService'.
+
+[7m66[0m       const findAllUsersProfile: any = await this.userService.findAllUserProfile();
+[7m  [0m [91m                                                              ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m12[0m:[93m60[0m - [91merror[0m[90m TS2339: [0mProperty 'createUser' does not exist on type 'UserService'.
+
+[7m12[0m       const createUserData: IUser = await this.userService.createUser({ ...userData });
+[7m  [0m [91m                                                           ~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m23[0m:[93m52[0m - [91merror[0m[90m TS2339: [0mProperty 'login' does not exist on type 'UserService'.
+
+[7m23[0m       const { tokenData } = await this.userService.login(userData);
+[7m  [0m [91m                                                   ~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m33[0m:[93m55[0m - [91merror[0m[90m TS2339: [0mProperty 'findAllUser' does not exist on type 'UserService'.
+
+[7m33[0m       const findAllUsersData = await this.userService.findAllUser();
+[7m  [0m [91m                                                      ~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m44[0m:[93m61[0m - [91merror[0m[90m TS2339: [0mProperty 'findUserById' does not exist on type 'UserService'.
+
+[7m44[0m       const findOneUserData: IUser = await this.userService.findUserById(userId);
+[7m  [0m [91m                                                            ~~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m55[0m:[93m57[0m - [91merror[0m[90m TS2339: [0mProperty 'createUserProfile' does not exist on type 'UserService'.
+
+[7m55[0m       const ProfileData: IUser = await this.userService.createUserProfile({ ...userProfileData });
+[7m  [0m [91m                                                        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m66[0m:[93m63[0m - [91merror[0m[90m TS2339: [0mProperty 'findAllUserProfile' does not exist on type 'UserService'.
+
+[7m66[0m       const findAllUsersProfile: any = await this.userService.findAllUserProfile();
+[7m  [0m [91m                                                              ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-08T13:32:40.287Z500 - /api/v1/get/profile [GET] - Cannot read properties of undefined (reading 'findAll') 
+[Node] [ERROR] - 2022-12-08T13:34:47.325Z500 - /api/v1/get/profile [GET] - Cannot read properties of undefined (reading 'findAll') 
+[Node] [ERROR] - 2022-12-08T13:35:41.498Z500 - /api/v1/get/profile [GET] - Cannot read properties of undefined (reading 'findAll') 
+[Node] [ERROR] - 2022-12-08T13:36:09.520Z500 - /api/v1/get/profile [GET] - Cannot read properties of undefined (reading 'findAll') 
+[Node] [ERROR] - 2022-12-08T13:37:09.327ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m12[0m:[93m60[0m - [91merror[0m[90m TS2339: [0mProperty 'createUser' does not exist on type 'UserService'.
+
+[7m12[0m       const createUserData: IUser = await this.userService.createUser({ ...userData });
+[7m  [0m [91m                                                           ~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m23[0m:[93m52[0m - [91merror[0m[90m TS2339: [0mProperty 'login' does not exist on type 'UserService'.
+
+[7m23[0m       const { tokenData } = await this.userService.login(userData);
+[7m  [0m [91m                                                   ~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m33[0m:[93m55[0m - [91merror[0m[90m TS2339: [0mProperty 'findAllUser' does not exist on type 'UserService'.
+
+[7m33[0m       const findAllUsersData = await this.userService.findAllUser();
+[7m  [0m [91m                                                      ~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m44[0m:[93m61[0m - [91merror[0m[90m TS2339: [0mProperty 'findUserById' does not exist on type 'UserService'.
+
+[7m44[0m       const findOneUserData: IUser = await this.userService.findUserById(userId);
+[7m  [0m [91m                                                            ~~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m55[0m:[93m57[0m - [91merror[0m[90m TS2339: [0mProperty 'createUserProfile' does not exist on type 'UserService'.
+
+[7m55[0m       const ProfileData: IUser = await this.userService.createUserProfile({ ...userProfileData });
+[7m  [0m [91m                                                        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m65[0m:[93m63[0m - [91merror[0m[90m TS2339: [0mProperty 'findAllUserProfile' does not exist on type 'UserService'.
+
+[7m65[0m       const findAllUsersProfile: any = await this.userService.findAllUserProfile();
+[7m  [0m [91m                                                              ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m12[0m:[93m60[0m - [91merror[0m[90m TS2339: [0mProperty 'createUser' does not exist on type 'UserService'.
+
+[7m12[0m       const createUserData: IUser = await this.userService.createUser({ ...userData });
+[7m  [0m [91m                                                           ~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m23[0m:[93m52[0m - [91merror[0m[90m TS2339: [0mProperty 'login' does not exist on type 'UserService'.
+
+[7m23[0m       const { tokenData } = await this.userService.login(userData);
+[7m  [0m [91m                                                   ~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m33[0m:[93m55[0m - [91merror[0m[90m TS2339: [0mProperty 'findAllUser' does not exist on type 'UserService'.
+
+[7m33[0m       const findAllUsersData = await this.userService.findAllUser();
+[7m  [0m [91m                                                      ~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m44[0m:[93m61[0m - [91merror[0m[90m TS2339: [0mProperty 'findUserById' does not exist on type 'UserService'.
+
+[7m44[0m       const findOneUserData: IUser = await this.userService.findUserById(userId);
+[7m  [0m [91m                                                            ~~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m55[0m:[93m57[0m - [91merror[0m[90m TS2339: [0mProperty 'createUserProfile' does not exist on type 'UserService'.
+
+[7m55[0m       const ProfileData: IUser = await this.userService.createUserProfile({ ...userProfileData });
+[7m  [0m [91m                                                        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m65[0m:[93m63[0m - [91merror[0m[90m TS2339: [0mProperty 'findAllUserProfile' does not exist on type 'UserService'.
+
+[7m65[0m       const findAllUsersProfile: any = await this.userService.findAllUserProfile();
+[7m  [0m [91m                                                              ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-08T13:37:20.942ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m12[0m:[93m60[0m - [91merror[0m[90m TS2339: [0mProperty 'createUser' does not exist on type 'UserService'.
+
+[7m12[0m       const createUserData: IUser = await this.userService.createUser({ ...userData });
+[7m  [0m [91m                                                           ~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m23[0m:[93m52[0m - [91merror[0m[90m TS2339: [0mProperty 'login' does not exist on type 'UserService'.
+
+[7m23[0m       const { tokenData } = await this.userService.login(userData);
+[7m  [0m [91m                                                   ~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m33[0m:[93m55[0m - [91merror[0m[90m TS2339: [0mProperty 'findAllUser' does not exist on type 'UserService'.
+
+[7m33[0m       const findAllUsersData = await this.userService.findAllUser();
+[7m  [0m [91m                                                      ~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m44[0m:[93m61[0m - [91merror[0m[90m TS2339: [0mProperty 'findUserById' does not exist on type 'UserService'.
+
+[7m44[0m       const findOneUserData: IUser = await this.userService.findUserById(userId);
+[7m  [0m [91m                                                            ~~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m55[0m:[93m57[0m - [91merror[0m[90m TS2339: [0mProperty 'createUserProfile' does not exist on type 'UserService'.
+
+[7m55[0m       const ProfileData: IUser = await this.userService.createUserProfile({ ...userProfileData });
+[7m  [0m [91m                                                        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m65[0m:[93m63[0m - [91merror[0m[90m TS2339: [0mProperty 'findAllUserProfile' does not exist on type 'UserService'.
+
+[7m65[0m       const findAllUsersProfile: any = await this.userService.findAllUserProfile();
+[7m  [0m [91m                                                              ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m12[0m:[93m60[0m - [91merror[0m[90m TS2339: [0mProperty 'createUser' does not exist on type 'UserService'.
+
+[7m12[0m       const createUserData: IUser = await this.userService.createUser({ ...userData });
+[7m  [0m [91m                                                           ~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m23[0m:[93m52[0m - [91merror[0m[90m TS2339: [0mProperty 'login' does not exist on type 'UserService'.
+
+[7m23[0m       const { tokenData } = await this.userService.login(userData);
+[7m  [0m [91m                                                   ~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m33[0m:[93m55[0m - [91merror[0m[90m TS2339: [0mProperty 'findAllUser' does not exist on type 'UserService'.
+
+[7m33[0m       const findAllUsersData = await this.userService.findAllUser();
+[7m  [0m [91m                                                      ~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m44[0m:[93m61[0m - [91merror[0m[90m TS2339: [0mProperty 'findUserById' does not exist on type 'UserService'.
+
+[7m44[0m       const findOneUserData: IUser = await this.userService.findUserById(userId);
+[7m  [0m [91m                                                            ~~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m55[0m:[93m57[0m - [91merror[0m[90m TS2339: [0mProperty 'createUserProfile' does not exist on type 'UserService'.
+
+[7m55[0m       const ProfileData: IUser = await this.userService.createUserProfile({ ...userProfileData });
+[7m  [0m [91m                                                        ~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m65[0m:[93m63[0m - [91merror[0m[90m TS2339: [0mProperty 'findAllUserProfile' does not exist on type 'UserService'.
+
+[7m65[0m       const findAllUsersProfile: any = await this.userService.findAllUserProfile();
+[7m  [0m [91m                                                              ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-08T13:38:06.658Z500 - /api/v1/get/profile [GET] - Cannot read properties of undefined (reading 'findAll') 
+[Node] [ERROR] - 2022-12-08T13:41:16.790ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:41:38.252ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:13:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:42:05.199ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:13:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:42:28.812ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:13:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:43:22.852ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:13:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:43:30.127ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:13:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:43:51.367ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:13:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:43:57.113ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/index.ts[0m:[93m29[0m:[93m8[0m - [91merror[0m[90m TS2304: [0mCannot find name 'then'.
+
+[7m29[0m       .then(({ default: defaultFunction }) => defaultFunction(
+[7m  [0m [91m       ~~~~[0m
+[96msrc/databases/models/index.ts[0m:[93m34[0m:[93m8[0m - [91merror[0m[90m TS2538: [0mType 'void' cannot be used as an index type.
+
+[7m34[0m     db[model] = model;
+[7m  [0m [91m       ~~~~~[0m
+[96msrc/databases/models/index.ts[0m:[93m29[0m:[93m7[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m29[0m       .then(({ default: defaultFunction }) => defaultFunction(
+[7m  [0m [91m      ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/index.ts[0m:[93m29[0m:[93m8[0m - [91merror[0m[90m TS2304: [0mCannot find name 'then'.
+
+[7m29[0m       .then(({ default: defaultFunction }) => defaultFunction(
+[7m  [0m [91m       ~~~~[0m
+[96msrc/databases/models/index.ts[0m:[93m34[0m:[93m8[0m - [91merror[0m[90m TS2538: [0mType 'void' cannot be used as an index type.
+
+[7m34[0m     db[model] = model;
+[7m  [0m [91m       ~~~~~[0m
+[96msrc/databases/models/index.ts[0m:[93m29[0m:[93m7[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m29[0m       .then(({ default: defaultFunction }) => defaultFunction(
+[7m  [0m [91m      ~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-08T13:44:05.398ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:13:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:44:23.361ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:13:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:44:54.656ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:13:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:45:00.871ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:45:17.081ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/index.ts[0m:[93m28[0m:[93m7[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m28[0m       .then((data) => {
+[7m  [0m [91m      ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/index.ts[0m:[93m28[0m:[93m7[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m28[0m       .then((data) => {
+[7m  [0m [91m      ~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-08T13:45:25.827ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:45:26.557ZuncaughtException: (intermediate value).then is not a function
+TypeError: (intermediate value).then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:26.557ZuncaughtException: (intermediate value).then is not a function
+TypeError: (intermediate value).then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:26.558ZuncaughtException: (intermediate value).then is not a function
+TypeError: (intermediate value).then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:26.559ZuncaughtException: (intermediate value).then is not a function
+TypeError: (intermediate value).then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:26.560ZuncaughtException: (intermediate value).then is not a function
+TypeError: (intermediate value).then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:26.560ZuncaughtException: (intermediate value).then is not a function
+TypeError: (intermediate value).then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:26.561ZuncaughtException: (intermediate value).then is not a function
+TypeError: (intermediate value).then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:26.562ZuncaughtException: (intermediate value).then is not a function
+TypeError: (intermediate value).then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:26.563ZuncaughtException: (intermediate value).then is not a function
+TypeError: (intermediate value).then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:31.412ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:45:32.067ZuncaughtException: (intermediate value).default.then is not a function
+TypeError: (intermediate value).default.then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:32.068ZuncaughtException: (intermediate value).default.then is not a function
+TypeError: (intermediate value).default.then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:32.068ZuncaughtException: (intermediate value).default.then is not a function
+TypeError: (intermediate value).default.then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:32.069ZuncaughtException: (intermediate value).default.then is not a function
+TypeError: (intermediate value).default.then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:32.070ZuncaughtException: (intermediate value).default.then is not a function
+TypeError: (intermediate value).default.then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:32.070ZuncaughtException: (intermediate value).default.then is not a function
+TypeError: (intermediate value).default.then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:32.071ZuncaughtException: (intermediate value).default.then is not a function
+TypeError: (intermediate value).default.then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:32.072ZuncaughtException: (intermediate value).default.then is not a function
+TypeError: (intermediate value).default.then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:32.073ZuncaughtException: (intermediate value).default.then is not a function
+TypeError: (intermediate value).default.then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:42.438ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:45:43.068ZuncaughtException: (intermediate value).then is not a function
+TypeError: (intermediate value).then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:43.069ZuncaughtException: (intermediate value).then is not a function
+TypeError: (intermediate value).then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:43.069ZuncaughtException: (intermediate value).then is not a function
+TypeError: (intermediate value).then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:43.070ZuncaughtException: (intermediate value).then is not a function
+TypeError: (intermediate value).then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:43.071ZuncaughtException: (intermediate value).then is not a function
+TypeError: (intermediate value).then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:43.071ZuncaughtException: (intermediate value).then is not a function
+TypeError: (intermediate value).then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:43.072ZuncaughtException: (intermediate value).then is not a function
+TypeError: (intermediate value).then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:43.073ZuncaughtException: (intermediate value).then is not a function
+TypeError: (intermediate value).then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:43.074ZuncaughtException: (intermediate value).then is not a function
+TypeError: (intermediate value).then is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:8
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:45:50.038ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/index.ts[0m:[93m29[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'log'.
+
+[7m29[0m         log
+[7m  [0m [91m        ~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/index.ts[0m:[93m29[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'log'.
+
+[7m29[0m         log
+[7m  [0m [91m        ~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-08T13:45:57.006ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:46:09.987ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:46:26.539ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:46:27.206ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/birthdayReminder.ts:15:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:29:21
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:46:27.207ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/branch.ts:14:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:29:21
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:46:27.208ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/deparment.ts:17:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:29:21
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:46:27.209ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/designation.ts:18:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:29:21
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:46:27.209ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:25:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:29:21
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:46:27.210ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/template.ts:12:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:29:21
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:46:27.211ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/user.ts:15:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:29:21
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:46:27.212ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/userProfile.ts:12:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:29:21
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:46:27.214ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/userVerification.ts:16:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:29:21
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:46:36.566ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:46:48.271ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:46:58.933ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:47:10.654ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:47:17.780ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:47:22.892ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:47:34.304ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:48:04.610ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:48:49.197ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:49:12.672ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:49:13.324ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/birthdayReminder.ts:15:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:13.325ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/branch.ts:14:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:13.326ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/deparment.ts:17:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:13.328ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/designation.ts:18:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:13.328ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:25:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:13.329ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/template.ts:12:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:13.330ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/user.ts:15:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:13.332ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/userProfile.ts:12:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:13.333ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/userVerification.ts:16:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:18.105ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:49:18.870ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/birthdayReminder.ts:15:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:18.871ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/branch.ts:14:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:18.872ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/deparment.ts:17:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:18.873ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/designation.ts:18:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:18.874ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:25:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:18.875ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/template.ts:12:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:18.876ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/user.ts:15:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:18.877ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/userProfile.ts:12:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:18.879ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/userVerification.ts:16:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:42.495ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:49:52.004ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:49:52.719ZuncaughtException: model is not a function
+TypeError: model is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:52.720ZuncaughtException: model is not a function
+TypeError: model is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:52.720ZuncaughtException: model is not a function
+TypeError: model is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:52.721ZuncaughtException: model is not a function
+TypeError: model is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:52.722ZuncaughtException: model is not a function
+TypeError: model is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:52.722ZuncaughtException: model is not a function
+TypeError: model is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:52.723ZuncaughtException: model is not a function
+TypeError: model is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:52.724ZuncaughtException: model is not a function
+TypeError: model is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:49:52.725ZuncaughtException: model is not a function
+TypeError: model is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:36:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:52:39.659ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:52:40.284ZuncaughtException: model is not a function
+TypeError: model is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:38:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:52:40.288ZuncaughtException: model is not a function
+TypeError: model is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:38:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:52:40.289ZuncaughtException: model is not a function
+TypeError: model is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:38:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:52:40.290ZuncaughtException: model is not a function
+TypeError: model is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:38:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:52:40.290ZuncaughtException: model is not a function
+TypeError: model is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:38:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:52:40.291ZuncaughtException: model is not a function
+TypeError: model is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:38:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:52:40.292ZuncaughtException: model is not a function
+TypeError: model is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:38:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:52:40.293ZuncaughtException: model is not a function
+TypeError: model is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:38:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:52:40.294ZuncaughtException: model is not a function
+TypeError: model is not a function
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:38:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:52:55.576ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:53:21.123ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:53:56.823ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:54:07.615ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:54:16.295ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:54:16.921ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/birthdayReminder.ts:15:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:54:16.922ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/branch.ts:14:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:54:16.923ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/deparment.ts:17:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:54:16.924ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/designation.ts:18:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:54:16.925ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:25:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:54:16.926ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/template.ts:12:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:54:16.927ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/user.ts:15:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:54:16.930ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/userProfile.ts:12:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:54:16.931ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/userVerification.ts:16:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:54:35.738ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:54:45.029ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:54:45.655ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/birthdayReminder.ts:15:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:54:45.656ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/branch.ts:14:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:54:45.657ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/deparment.ts:17:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:54:45.658ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/designation.ts:18:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:54:45.659ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:25:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:54:45.660ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/template.ts:12:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:54:45.661ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/user.ts:15:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:54:45.664ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/userProfile.ts:12:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:54:45.665ZuncaughtException: Cannot read properties of undefined (reading 'BIGINT')
+TypeError: Cannot read properties of undefined (reading 'BIGINT')
+    at Object.exports.default (/home/thoughtwin/Documents/EB_Ty/src/databases/models/userVerification.ts:16:25)
+    at /home/thoughtwin/Documents/EB_Ty/src/databases/models/index.ts:28:30
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/thoughtwin/Documents/EB_Ty/node_modules/tslib/tslib.js:115:62)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Node] [ERROR] - 2022-12-08T13:54:58.593ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/index.ts[0m:[93m12[0m:[93m23[0m - [91merror[0m[90m TS2351: [0mThis expression is not constructable.
+  Type 'typeof import("/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/types/index")' has no construct signatures.
+
+[7m12[0m const sequelize = new Sequelize(`postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_DATABASE}?ssl=true&sslmode=no-verify`, {
+[7m  [0m [91m                      ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/index.ts[0m:[93m12[0m:[93m23[0m - [91merror[0m[90m TS2351: [0mThis expression is not constructable.
+  Type 'typeof import("/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/types/index")' has no construct signatures.
+
+[7m12[0m const sequelize = new Sequelize(`postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_DATABASE}?ssl=true&sslmode=no-verify`, {
+[7m  [0m [91m                      ~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-08T13:55:10.161ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:55:22.936ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:56:23.361ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:56:36.313ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:56:49.205ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:56:53.368ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:57:06.285ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:57:25.976ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:57:32.693ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:57:47.266ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:57:56.013ZuncaughtException: Cannot read properties of undefined (reading 'models')
+TypeError: Cannot read properties of undefined (reading 'models')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:11:31)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T13:58:14.926ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m6[0m:[93m16[0m - [91merror[0m[90m TS1141: [0mString literal expected.
+
+[7m6[0m import {models:{}} from '../../databases/models';
+[7m [0m [91m               ~~[0m
+[96msrc/services/user/index.ts[0m:[93m6[0m:[93m20[0m - [91merror[0m[90m TS2304: [0mCannot find name 'from'.
+
+[7m6[0m import {models:{}} from '../../databases/models';
+[7m [0m [91m                   ~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m11[0m:[93m18[0m - [91merror[0m[90m TS2304: [0mCannot find name 'db'.
+
+[7m11[0m   public users = db.sequelize.models;
+[7m  [0m [91m                 ~~[0m
+[96msrc/services/user/index.ts[0m:[93m13[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'db'.
+
+[7m13[0m   public branch = db.branch;
+[7m  [0m [91m                  ~~[0m
+[96msrc/services/user/index.ts[0m:[93m15[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'db'.
+
+[7m15[0m   private roles = db.role;
+[7m  [0m [91m                  ~~[0m
+[96msrc/services/user/index.ts[0m:[93m17[0m:[93m20[0m - [91merror[0m[90m TS2304: [0mCannot find name 'db'.
+
+[7m17[0m   public profile = db.userProfile;
+[7m  [0m [91m                   ~~[0m
+[96msrc/services/user/index.ts[0m:[93m40[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'db'.
+
+[7m40[0m     console.log(db.sequelize.models);
+[7m  [0m [91m                ~~[0m
+[96msrc/services/user/index.ts[0m:[93m79[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'db'.
+
+[7m79[0m         model: db.role,
+[7m  [0m [91m               ~~[0m
+[96msrc/services/user/index.ts[0m:[93m6[0m:[93m15[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m6[0m import {models:{}} from '../../databases/models';
+[7m [0m [91m              ~[0m
+[96msrc/services/user/index.ts[0m:[93m6[0m:[93m16[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m6[0m import {models:{}} from '../../databases/models';
+[7m [0m [91m               ~[0m
+[96msrc/services/user/index.ts[0m:[93m6[0m:[93m18[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m6[0m import {models:{}} from '../../databases/models';
+[7m [0m [91m                 ~[0m
+[96msrc/services/user/index.ts[0m:[93m6[0m:[93m20[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m6[0m import {models:{}} from '../../databases/models';
+[7m [0m [91m                   ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m6[0m:[93m16[0m - [91merror[0m[90m TS1141: [0mString literal expected.
+
+[7m6[0m import {models:{}} from '../../databases/models';
+[7m [0m [91m               ~~[0m
+[96msrc/services/user/index.ts[0m:[93m6[0m:[93m20[0m - [91merror[0m[90m TS2304: [0mCannot find name 'from'.
+
+[7m6[0m import {models:{}} from '../../databases/models';
+[7m [0m [91m                   ~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m11[0m:[93m18[0m - [91merror[0m[90m TS2304: [0mCannot find name 'db'.
+
+[7m11[0m   public users = db.sequelize.models;
+[7m  [0m [91m                 ~~[0m
+[96msrc/services/user/index.ts[0m:[93m13[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'db'.
+
+[7m13[0m   public branch = db.branch;
+[7m  [0m [91m                  ~~[0m
+[96msrc/services/user/index.ts[0m:[93m15[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'db'.
+
+[7m15[0m   private roles = db.role;
+[7m  [0m [91m                  ~~[0m
+[96msrc/services/user/index.ts[0m:[93m17[0m:[93m20[0m - [91merror[0m[90m TS2304: [0mCannot find name 'db'.
+
+[7m17[0m   public profile = db.userProfile;
+[7m  [0m [91m                   ~~[0m
+[96msrc/services/user/index.ts[0m:[93m40[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'db'.
+
+[7m40[0m     console.log(db.sequelize.models);
+[7m  [0m [91m                ~~[0m
+[96msrc/services/user/index.ts[0m:[93m79[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'db'.
+
+[7m79[0m         model: db.role,
+[7m  [0m [91m               ~~[0m
+[96msrc/services/user/index.ts[0m:[93m6[0m:[93m15[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m6[0m import {models:{}} from '../../databases/models';
+[7m [0m [91m              ~[0m
+[96msrc/services/user/index.ts[0m:[93m6[0m:[93m16[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m6[0m import {models:{}} from '../../databases/models';
+[7m [0m [91m               ~[0m
+[96msrc/services/user/index.ts[0m:[93m6[0m:[93m18[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m6[0m import {models:{}} from '../../databases/models';
+[7m [0m [91m                 ~[0m
+[96msrc/services/user/index.ts[0m:[93m6[0m:[93m20[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m6[0m import {models:{}} from '../../databases/models';
+[7m [0m [91m                   ~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-08T14:05:26.083ZuncaughtException: Cannot read properties of undefined (reading 'users')
+TypeError: Cannot read properties of undefined (reading 'users')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:13:28)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T14:05:41.518ZuncaughtException: Cannot read properties of undefined (reading 'users')
+TypeError: Cannot read properties of undefined (reading 'users')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:13:28)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T14:05:45.590ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/index.ts[0m:[93m42[0m:[93m13[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.
+
+[7m42[0m export const
+[7m  [0m [91m            [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/index.ts[0m:[93m42[0m:[93m13[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.
+
+[7m42[0m export const
+[7m  [0m [91m            [0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-08T14:05:49.352ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/index.ts[0m:[93m42[0m:[93m14[0m - [91merror[0m[90m TS1182: [0mA destructuring declaration must have an initializer.
+
+[7m42[0m export const {}
+[7m  [0m [91m             ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/index.ts[0m:[93m42[0m:[93m14[0m - [91merror[0m[90m TS1182: [0mA destructuring declaration must have an initializer.
+
+[7m42[0m export const {}
+[7m  [0m [91m             ~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-08T14:06:02.864ZuncaughtException: Cannot read properties of undefined (reading 'users')
+TypeError: Cannot read properties of undefined (reading 'users')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:13:28)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T14:06:17.214ZuncaughtException: Cannot read properties of undefined (reading 'users')
+TypeError: Cannot read properties of undefined (reading 'users')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:13:28)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T14:06:26.967ZuncaughtException: Cannot read properties of undefined (reading 'users')
+TypeError: Cannot read properties of undefined (reading 'users')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:13:28)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T14:06:31.159ZuncaughtException: Cannot read properties of undefined (reading 'users')
+TypeError: Cannot read properties of undefined (reading 'users')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:13:28)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T14:06:37.018ZuncaughtException: Cannot read properties of undefined (reading 'users')
+TypeError: Cannot read properties of undefined (reading 'users')
+    at new UserService (/home/thoughtwin/Documents/EB_Ty/src/services/user/index.ts:13:28)
+    at new UsersController (/home/thoughtwin/Documents/EB_Ty/src/controllers/user/users.controller.ts:7:24)
+    at new Route (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:14:28)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts:34:27)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-08T14:07:02.414Z500 - /api/v1/get/profile [GET] - Cannot read properties of undefined (reading 'findAll') 
+[Node] [ERROR] - 2022-12-08T14:09:57.151ZUNCAUGHT REJECTION! TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/birthdayReminder.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2614: [0mModule '"./user"' has no exported member 'userModel'. Did you mean to use 'import userModel from "./user"' instead?
+
+[7m3[0m import { userModel } from './user';
+[7m [0m [91m         ~~~~~~~~~[0m
+[96msrc/databases/models/birthdayReminder.ts[0m:[93m65[0m:[93m1[0m - [91merror[0m[90m TS2304: [0mCannot find name 'birthdayReminder'.
+
+[7m65[0m birthdayReminder.belongsTo(userModel, {
+[7m  [0m [91m~~~~~~~~~~~~~~~~[0m
+
+[Node] [ERROR] - 2022-12-08T14:10:31.033ZUNCAUGHT REJECTION! TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/birthdayReminder.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2614: [0mModule '"./user"' has no exported member 'userModel'. Did you mean to use 'import userModel from "./user"' instead?
+
+[7m3[0m import { userModel } from './user';
+[7m [0m [91m         ~~~~~~~~~[0m
+[96msrc/databases/models/birthdayReminder.ts[0m:[93m67[0m:[93m1[0m - [91merror[0m[90m TS2304: [0mCannot find name 'birthdayReminder'.
+
+[7m67[0m birthdayReminder.belongsTo(userModel, {
+[7m  [0m [91m~~~~~~~~~~~~~~~~[0m
+
+[Node] [ERROR] - 2022-12-08T14:11:00.121ZUNCAUGHT REJECTION! TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/birthdayReminder.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2614: [0mModule '"./user"' has no exported member 'userModel'. Did you mean to use 'import userModel from "./user"' instead?
+
+[7m3[0m import { userModel } from './user';
+[7m [0m [91m         ~~~~~~~~~[0m
+[96msrc/databases/models/birthdayReminder.ts[0m:[93m62[0m:[93m1[0m - [91merror[0m[90m TS2304: [0mCannot find name 'birthdayReminder'.
+
+[7m62[0m birthdayReminder.belongsTo(userModel, {
+[7m  [0m [91m~~~~~~~~~~~~~~~~[0m
+
+[Node] [ERROR] - 2022-12-08T14:11:16.662ZUNCAUGHT REJECTION! TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/birthdayReminder.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2614: [0mModule '"./user"' has no exported member 'userModel'. Did you mean to use 'import userModel from "./user"' instead?
+
+[7m3[0m import { userModel } from './user';
+[7m [0m [91m         ~~~~~~~~~[0m
+
+[Node] [ERROR] - 2022-12-08T14:11:25.472ZUNCAUGHT REJECTION! TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/birthdayReminder.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2614: [0mModule '"./user"' has no exported member 'userModel'. Did you mean to use 'import userModel from "./user"' instead?
+
+[7m3[0m import { userModel } from './user';
+[7m [0m [91m         ~~~~~~~~~[0m
+
+[Node] [ERROR] - 2022-12-08T14:11:39.453ZUNCAUGHT REJECTION! TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/birthdayReminder.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2614: [0mModule '"./user"' has no exported member 'userModel'. Did you mean to use 'import userModel from "./user"' instead?
+
+[7m3[0m import { userModel } from './user';
+[7m [0m [91m         ~~~~~~~~~[0m
+
+[Node] [ERROR] - 2022-12-08T14:11:48.049ZUNCAUGHT REJECTION! TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/birthdayReminder.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2614: [0mModule '"./user"' has no exported member 'userModel'. Did you mean to use 'import userModel from "./user"' instead?
+
+[7m3[0m import { userModel } from './user';
+[7m [0m [91m         ~~~~~~~~~[0m
+
+[Node] [ERROR] - 2022-12-08T14:12:59.382ZUNCAUGHT REJECTION! TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/birthdayReminder.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2614: [0mModule '"./user"' has no exported member 'userModel'. Did you mean to use 'import userModel from "./user"' instead?
+
+[7m3[0m import { userModel } from './user';
+[7m [0m [91m         ~~~~~~~~~[0m
+

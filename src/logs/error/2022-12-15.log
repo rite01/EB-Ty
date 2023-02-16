@@ -1,0 +1,786 @@
+[Node] [ERROR] - 2022-12-15T06:02:04.134Z409 - /api/v1/login [POST] - This email admn@thoughtwin.com was not found 
+[Node] [ERROR] - 2022-12-15T06:03:53.428Z409 - /api/v1/login [POST] - This email admn@thoughtwin.com was not found 
+[Node] [ERROR] - 2022-12-15T07:43:01.357Z401 - /api/v1/branch/getAll [GET] - Your token has expired! Please log in again. 
+[Node] [ERROR] - 2022-12-15T07:43:23.905Z401 - /api/v1/branch/getAll [GET] - You are not authorized 
+[Node] [ERROR] - 2022-12-15T07:44:14.646Z401 - /api/v1/branch/getAll [GET] - You are not authorized 
+[Node] [ERROR] - 2022-12-15T07:45:28.553Z401 - /api/v1/branch/getAll [GET] - You are not authorized 
+[Node] [ERROR] - 2022-12-15T07:46:09.278Z401 - /api/v1/branch/getAll [GET] - The user belonging to this token does no longer exist. 
+[Node] [ERROR] - 2022-12-15T07:46:10.015Z401 - /api/v1/branch/getAll [GET] - The user belonging to this token does no longer exist. 
+[Node] [ERROR] - 2022-12-15T07:48:31.147Z401 - /api/v1/branch/getAll [GET] - You are not authorized 
+[Node] [ERROR] - 2022-12-15T07:49:08.013Z401 - /api/v1/branch/getAll [GET] - You are not logged in! Please log in to get access. 
+[Node] [ERROR] - 2022-12-15T07:49:14.372Z401 - /api/v1/branch/getAll [GET] - Invalid token. Please log in again! 
+[Node] [ERROR] - 2022-12-15T07:51:02.289Z401 - /api/v1/branch/getAll [GET] - Invalid token. Please log in again! 
+[Node] [ERROR] - 2022-12-15T07:51:17.666Z401 - /api/v1/branch/getAll [GET] - Invalid token. Please log in again! 
+[Node] [ERROR] - 2022-12-15T07:51:39.917Z401 - /api/v1/branch/getAll [GET] - You are not authorized 
+[Node] [ERROR] - 2022-12-15T07:52:11.445Z401 - /api/v1/branch/getAll [GET] - You are not authorized 
+[Node] [ERROR] - 2022-12-15T07:53:12.726Z401 - /api/v1/branch/getAll [GET] - You are not authorized 
+[Node] [ERROR] - 2022-12-15T07:53:44.123Z401 - /api/v1/branch/getAll [GET] - The user belonging to this token does no longer exist. 
+[Node] [ERROR] - 2022-12-15T07:54:02.109Z401 - /api/v1/branch/getAll [GET] - The user belonging to this token does no longer exist. 
+[Node] [ERROR] - 2022-12-15T09:35:40.318Z500 - /api/v1/csv/post [POST] - req.status is not a function 
+[Node] [ERROR] - 2022-12-15T09:36:39.159Z500 - /api/v1/csv/post [POST] - req.status is not a function 
+[Node] [ERROR] - 2022-12-15T09:46:44.787ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m82[0m:[93m16[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m82[0m   public async findUserById(userId: any): Promise<IUser> {
+[7m  [0m [91m               ~~~~~~~~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m96[0m:[93m16[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m96[0m   public async findUserById(userId: any): Promise<IUser> {
+[7m  [0m [91m               ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m82[0m:[93m16[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m82[0m   public async findUserById(userId: any): Promise<IUser> {
+[7m  [0m [91m               ~~~~~~~~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m96[0m:[93m16[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m96[0m   public async findUserById(userId: any): Promise<IUser> {
+[7m  [0m [91m               ~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-15T09:47:09.108ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m101[0m:[93m7[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ where: { id: any; }; include: { model: ModelCtor<Model<any, any>>; }; }' is not assignable to parameter of type 'DestroyOptions<any>'.
+  Object literal may only specify known properties, and 'include' does not exist in type 'DestroyOptions<any>'.
+
+[7m101[0m       include: {
+[7m   [0m [91m      ~~~~~~~~~~[0m
+[7m102[0m         model: roles,
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[7m103[0m       },
+[7m   [0m [91m~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m101[0m:[93m7[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ where: { id: any; }; include: { model: ModelCtor<Model<any, any>>; }; }' is not assignable to parameter of type 'DestroyOptions<any>'.
+  Object literal may only specify known properties, and 'include' does not exist in type 'DestroyOptions<any>'.
+
+[7m101[0m       include: {
+[7m   [0m [91m      ~~~~~~~~~~[0m
+[7m102[0m         model: roles,
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[7m103[0m       },
+[7m   [0m [91m~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-15T09:47:26.727ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m102[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'findUser'.
+
+[7m102[0m     if (!findUser) throw new ConflictException("User doesn't exist");
+[7m   [0m [91m         ~~~~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m104[0m:[93m12[0m - [91merror[0m[90m TS2304: [0mCannot find name 'findUser'.
+
+[7m104[0m     return findUser;
+[7m   [0m [91m           ~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m102[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'findUser'.
+
+[7m102[0m     if (!findUser) throw new ConflictException("User doesn't exist");
+[7m   [0m [91m         ~~~~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m104[0m:[93m12[0m - [91merror[0m[90m TS2304: [0mCannot find name 'findUser'.
+
+[7m104[0m     return findUser;
+[7m   [0m [91m           ~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-15T10:40:53.296ZuncaughtException: Cannot read properties of undefined (reading 'schemas')
+TypeError: Cannot read properties of undefined (reading 'schemas')
+    at organize (/home/thoughtwin/Documents/EB_Ty/node_modules/swagger-jsdoc/src/specification.js:154:32)
+    at build (/home/thoughtwin/Documents/EB_Ty/node_modules/swagger-jsdoc/src/specification.js:316:7)
+    at module.exports (/home/thoughtwin/Documents/EB_Ty/node_modules/swagger-jsdoc/src/lib.js:32:10)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/utils/swagger.utils.ts:46:49)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-15T10:41:37.150ZuncaughtException: Cannot read properties of undefined (reading 'UserRegister and login api')
+TypeError: Cannot read properties of undefined (reading 'UserRegister and login api')
+    at organize (/home/thoughtwin/Documents/EB_Ty/node_modules/swagger-jsdoc/src/specification.js:154:32)
+    at build (/home/thoughtwin/Documents/EB_Ty/node_modules/swagger-jsdoc/src/specification.js:316:7)
+    at module.exports (/home/thoughtwin/Documents/EB_Ty/node_modules/swagger-jsdoc/src/lib.js:32:10)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/utils/swagger.utils.ts:46:49)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-15T12:12:24.674Z404 - /api/v1/health [POST] - Can't find /api/v1/health on this server! 
+[Node] [ERROR] - 2022-12-15T12:12:31.290Z404 - /health [POST] - Can't find /health on this server! 
+[Node] [ERROR] - 2022-12-15T12:12:37.458Z404 - /health [GET] - Can't find /health on this server! 
+[Node] [ERROR] - 2022-12-15T12:23:02.415ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m163[0m:[93m60[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m163[0m       const updateUserData: IUser = await this.userService.updateUser(userId, userData);
+[7m   [0m [91m                                                           ~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m163[0m:[93m60[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m163[0m       const updateUserData: IUser = await this.userService.updateUser(userId, userData);
+[7m   [0m [91m                                                           ~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-15T12:23:33.594ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m42[0m - [91merror[0m[90m TS2339: [0mProperty 'users' does not exist on type 'UserService'.
+
+[7m100[0m       const findUser: IUser = await this.users.findOne({ email: userData.email });
+[7m   [0m [91m                                         ~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m101[0m:[93m32[0m - [91merror[0m[90m TS2339: [0mProperty '_id' does not exist on type 'IUser'.
+
+[7m101[0m       if (findUser && findUser._id != userId) throw new ConflictException(`This email ${userData.email} already exists`);
+[7m   [0m [91m                               ~~~[0m
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m46[0m - [91merror[0m[90m TS2339: [0mProperty 'users' does not exist on type 'UserService'.
+
+[7m109[0m     const updateUserById: IUser = await this.users.findByIdAndUpdate(userId, { userData });
+[7m   [0m [91m                                             ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m42[0m - [91merror[0m[90m TS2339: [0mProperty 'users' does not exist on type 'UserService'.
+
+[7m100[0m       const findUser: IUser = await this.users.findOne({ email: userData.email });
+[7m   [0m [91m                                         ~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m101[0m:[93m32[0m - [91merror[0m[90m TS2339: [0mProperty '_id' does not exist on type 'IUser'.
+
+[7m101[0m       if (findUser && findUser._id != userId) throw new ConflictException(`This email ${userData.email} already exists`);
+[7m   [0m [91m                               ~~~[0m
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m46[0m - [91merror[0m[90m TS2339: [0mProperty 'users' does not exist on type 'UserService'.
+
+[7m109[0m     const updateUserById: IUser = await this.users.findByIdAndUpdate(userId, { userData });
+[7m   [0m [91m                                             ~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-15T12:23:44.832ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m13[0m - [91merror[0m[90m TS2740: [0mType 'Model<any, any>' is missing the following properties from type 'IUser': id, name, email, password, and 7 more.
+
+[7m100[0m       const findUser: IUser = await users.findOne({ email: userData.email });
+[7m   [0m [91m            ~~~~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m53[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: IUser = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                    ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m101[0m:[93m32[0m - [91merror[0m[90m TS2339: [0mProperty '_id' does not exist on type 'IUser'.
+
+[7m101[0m       if (findUser && findUser._id != userId) throw new ConflictException(`This email ${userData.email} already exists`);
+[7m   [0m [91m                               ~~~[0m
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m46[0m - [91merror[0m[90m TS2339: [0mProperty 'users' does not exist on type 'UserService'.
+
+[7m109[0m     const updateUserById: IUser = await this.users.findByIdAndUpdate(userId, { userData });
+[7m   [0m [91m                                             ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m13[0m - [91merror[0m[90m TS2740: [0mType 'Model<any, any>' is missing the following properties from type 'IUser': id, name, email, password, and 7 more.
+
+[7m100[0m       const findUser: IUser = await users.findOne({ email: userData.email });
+[7m   [0m [91m            ~~~~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m53[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: IUser = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                    ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m101[0m:[93m32[0m - [91merror[0m[90m TS2339: [0mProperty '_id' does not exist on type 'IUser'.
+
+[7m101[0m       if (findUser && findUser._id != userId) throw new ConflictException(`This email ${userData.email} already exists`);
+[7m   [0m [91m                               ~~~[0m
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m46[0m - [91merror[0m[90m TS2339: [0mProperty 'users' does not exist on type 'UserService'.
+
+[7m109[0m     const updateUserById: IUser = await this.users.findByIdAndUpdate(userId, { userData });
+[7m   [0m [91m                                             ~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-15T12:23:49.236ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m46[0m - [91merror[0m[90m TS2339: [0mProperty 'users' does not exist on type 'UserService'.
+
+[7m109[0m     const updateUserById: IUser = await this.users.findByIdAndUpdate(userId, { userData });
+[7m   [0m [91m                                             ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m46[0m - [91merror[0m[90m TS2339: [0mProperty 'users' does not exist on type 'UserService'.
+
+[7m109[0m     const updateUserById: IUser = await this.users.findByIdAndUpdate(userId, { userData });
+[7m   [0m [91m                                             ~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-15T12:23:57.069ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m47[0m - [91merror[0m[90m TS2339: [0mProperty 'findByIdAndUpdate' does not exist on type 'ModelCtor<Model<any, any>>'.
+
+[7m109[0m     const updateUserById: IUser = await users.findByIdAndUpdate(userId, { userData });
+[7m   [0m [91m                                              ~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m47[0m - [91merror[0m[90m TS2339: [0mProperty 'findByIdAndUpdate' does not exist on type 'ModelCtor<Model<any, any>>'.
+
+[7m109[0m     const updateUserById: IUser = await users.findByIdAndUpdate(userId, { userData });
+[7m   [0m [91m                                              ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-15T12:24:23.821ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m99[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m99[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m  [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m108[0m:[93m47[0m - [91merror[0m[90m TS2339: [0mProperty 'findByIdAndUpdate' does not exist on type 'ModelCtor<Model<any, any>>'.
+
+[7m108[0m     const updateUserById: IUser = await users.findByIdAndUpdate(userId, { userData });
+[7m   [0m [91m                                              ~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m99[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m99[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m  [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m108[0m:[93m47[0m - [91merror[0m[90m TS2339: [0mProperty 'findByIdAndUpdate' does not exist on type 'ModelCtor<Model<any, any>>'.
+
+[7m108[0m     const updateUserById: IUser = await users.findByIdAndUpdate(userId, { userData });
+[7m   [0m [91m                                              ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-15T12:24:43.766ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m47[0m - [91merror[0m[90m TS2339: [0mProperty 'findByIdAndUpdate' does not exist on type 'ModelCtor<Model<any, any>>'.
+
+[7m109[0m     const updateUserById: IUser = await users.findByIdAndUpdate(userId, { userData });
+[7m   [0m [91m                                              ~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m47[0m - [91merror[0m[90m TS2339: [0mProperty 'findByIdAndUpdate' does not exist on type 'ModelCtor<Model<any, any>>'.
+
+[7m109[0m     const updateUserById: IUser = await users.findByIdAndUpdate(userId, { userData });
+[7m   [0m [91m                                              ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-15T12:25:15.465ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m11[0m - [91merror[0m[90m TS2322: [0mType '[affectedCount: number, affectedRows: Model<any, any>[]]' is not assignable to type 'IUser'.
+
+[7m109[0m     const updateUserById: IUser = await users.update(userId, { userData });
+[7m   [0m [91m          ~~~~~~~~~~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m54[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }): Promise<...>', gave the following error.
+    Argument of type 'string' is not assignable to parameter of type '{ [x: string]: any; }'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: UpdateOptions<any>): Promise<[affectedCount: number]>', gave the following error.
+    Argument of type 'string' is not assignable to parameter of type '{ [x: string]: any; }'.
+
+[7m109[0m     const updateUserById: IUser = await users.update(userId, { userData });
+[7m   [0m [91m                                                     ~~~~~~[0m
+
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m11[0m - [91merror[0m[90m TS2322: [0mType '[affectedCount: number, affectedRows: Model<any, any>[]]' is not assignable to type 'IUser'.
+
+[7m109[0m     const updateUserById: IUser = await users.update(userId, { userData });
+[7m   [0m [91m          ~~~~~~~~~~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m54[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }): Promise<...>', gave the following error.
+    Argument of type 'string' is not assignable to parameter of type '{ [x: string]: any; }'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: UpdateOptions<any>): Promise<[affectedCount: number]>', gave the following error.
+    Argument of type 'string' is not assignable to parameter of type '{ [x: string]: any; }'.
+
+[7m109[0m     const updateUserById: IUser = await users.update(userId, { userData });
+[7m   [0m [91m                                                     ~~~~~~[0m
+
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-15T12:25:21.739ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m52[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }): Promise<...>', gave the following error.
+    Argument of type 'string' is not assignable to parameter of type '{ [x: string]: any; }'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: UpdateOptions<any>): Promise<[affectedCount: number]>', gave the following error.
+    Argument of type 'string' is not assignable to parameter of type '{ [x: string]: any; }'.
+
+[7m109[0m     const updateUserById: any = await users.update(userId, { userData });
+[7m   [0m [91m                                                   ~~~~~~[0m
+
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m52[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }): Promise<...>', gave the following error.
+    Argument of type 'string' is not assignable to parameter of type '{ [x: string]: any; }'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: UpdateOptions<any>): Promise<[affectedCount: number]>', gave the following error.
+    Argument of type 'string' is not assignable to parameter of type '{ [x: string]: any; }'.
+
+[7m109[0m     const updateUserById: any = await users.update(userId, { userData });
+[7m   [0m [91m                                                   ~~~~~~[0m
+
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-15T12:25:32.612ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m62[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }): Promise<...>', gave the following error.
+    Argument of type '{ userData: CreateUserDto; }' is not assignable to parameter of type 'Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }'.
+      Object literal may only specify known properties, and 'userData' does not exist in type 'Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: UpdateOptions<any>): Promise<[affectedCount: number]>', gave the following error.
+    Argument of type '{ userData: CreateUserDto; }' is not assignable to parameter of type 'UpdateOptions<any>'.
+      Object literal may only specify known properties, and 'userData' does not exist in type 'UpdateOptions<any>'.
+
+[7m109[0m     const updateUserById: any = await users.update(userId, { userData });
+[7m   [0m [91m                                                             ~~~~~~~~[0m
+
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m62[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }): Promise<...>', gave the following error.
+    Argument of type '{ userData: CreateUserDto; }' is not assignable to parameter of type 'Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }'.
+      Object literal may only specify known properties, and 'userData' does not exist in type 'Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: UpdateOptions<any>): Promise<[affectedCount: number]>', gave the following error.
+    Argument of type '{ userData: CreateUserDto; }' is not assignable to parameter of type 'UpdateOptions<any>'.
+      Object literal may only specify known properties, and 'userData' does not exist in type 'UpdateOptions<any>'.
+
+[7m109[0m     const updateUserById: any = await users.update(userId, { userData });
+[7m   [0m [91m                                                             ~~~~~~~~[0m
+
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-15T12:25:38.710ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: any; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: any; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m62[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }): Promise<...>', gave the following error.
+    Argument of type '{ userData: any; }' is not assignable to parameter of type 'Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }'.
+      Object literal may only specify known properties, and 'userData' does not exist in type 'Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: UpdateOptions<any>): Promise<[affectedCount: number]>', gave the following error.
+    Argument of type '{ userData: any; }' is not assignable to parameter of type 'UpdateOptions<any>'.
+      Object literal may only specify known properties, and 'userData' does not exist in type 'UpdateOptions<any>'.
+
+[7m109[0m     const updateUserById: any = await users.update(userId, { userData });
+[7m   [0m [91m                                                             ~~~~~~~~[0m
+
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: any; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: any; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m62[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }): Promise<...>', gave the following error.
+    Argument of type '{ userData: any; }' is not assignable to parameter of type 'Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }'.
+      Object literal may only specify known properties, and 'userData' does not exist in type 'Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: UpdateOptions<any>): Promise<[affectedCount: number]>', gave the following error.
+    Argument of type '{ userData: any; }' is not assignable to parameter of type 'UpdateOptions<any>'.
+      Object literal may only specify known properties, and 'userData' does not exist in type 'UpdateOptions<any>'.
+
+[7m109[0m     const updateUserById: any = await users.update(userId, { userData });
+[7m   [0m [91m                                                             ~~~~~~~~[0m
+
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-15T12:25:45.233ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: any; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: any; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m62[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }): Promise<...>', gave the following error.
+    Argument of type '{ userData: any; }' is not assignable to parameter of type 'Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }'.
+      Object literal may only specify known properties, and 'userData' does not exist in type 'Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: UpdateOptions<any>): Promise<[affectedCount: number]>', gave the following error.
+    Argument of type '{ userData: any; }' is not assignable to parameter of type 'UpdateOptions<any>'.
+      Object literal may only specify known properties, and 'userData' does not exist in type 'UpdateOptions<any>'.
+
+[7m109[0m     const updateUserById: any = await users.update(userId, { userData });
+[7m   [0m [91m                                                             ~~~~~~~~[0m
+
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: any; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: any; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m62[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }): Promise<...>', gave the following error.
+    Argument of type '{ userData: any; }' is not assignable to parameter of type 'Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }'.
+      Object literal may only specify known properties, and 'userData' does not exist in type 'Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: UpdateOptions<any>): Promise<[affectedCount: number]>', gave the following error.
+    Argument of type '{ userData: any; }' is not assignable to parameter of type 'UpdateOptions<any>'.
+      Object literal may only specify known properties, and 'userData' does not exist in type 'UpdateOptions<any>'.
+
+[7m109[0m     const updateUserById: any = await users.update(userId, { userData });
+[7m   [0m [91m                                                             ~~~~~~~~[0m
+
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-15T12:26:03.723ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: any; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: any; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m62[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }): Promise<...>', gave the following error.
+    Argument of type '{ userData: any; }' is not assignable to parameter of type 'Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }'.
+      Object literal may only specify known properties, and 'userData' does not exist in type 'Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: UpdateOptions<any>): Promise<[affectedCount: number]>', gave the following error.
+    Argument of type '{ userData: any; }' is not assignable to parameter of type 'UpdateOptions<any>'.
+      Object literal may only specify known properties, and 'userData' does not exist in type 'UpdateOptions<any>'.
+
+[7m109[0m     const updateUserById: any = await users.update(userId, { userData });
+[7m   [0m [91m                                                             ~~~~~~~~[0m
+
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m100[0m:[93m51[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: any; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Argument of type '{ email: any; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+
+[7m100[0m       const findUser: any = await users.findOne({ email: userData.email });
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/services/user/index.ts[0m:[93m109[0m:[93m62[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }): Promise<...>', gave the following error.
+    Argument of type '{ userData: any; }' is not assignable to parameter of type 'Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }'.
+      Object literal may only specify known properties, and 'userData' does not exist in type 'Omit<UpdateOptions<any>, "returning"> & { returning: true | (string | number | symbol)[]; }'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, values: { [x: string]: any; }, options: UpdateOptions<any>): Promise<[affectedCount: number]>', gave the following error.
+    Argument of type '{ userData: any; }' is not assignable to parameter of type 'UpdateOptions<any>'.
+      Object literal may only specify known properties, and 'userData' does not exist in type 'UpdateOptions<any>'.
+
+[7m109[0m     const updateUserById: any = await users.update(userId, { userData });
+[7m   [0m [91m                                                             ~~~~~~~~[0m
+
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-15T13:00:43.889Z [App] [bootstrap] Database not connected: connect ECONNREFUSED 35.230.41.111:7745
+[Node] [ERROR] - 2022-12-15T13:01:36.057Z [App] [bootstrap] Database not connected: connect ECONNREFUSED 35.230.41.111:7745
+[Node] [ERROR] - 2022-12-15T13:09:55.964Z [App] [bootstrap] Database not connected: connect ECONNREFUSED 35.230.41.111:7745

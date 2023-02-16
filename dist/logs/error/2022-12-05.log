@@ -1,0 +1,1897 @@
+[Node] [ERROR] - 2022-12-05T06:31:39.558Z500 - /api/v1/getall [GET] - Method not implemented. 
+[Node] [ERROR] - 2022-12-05T06:32:44.423Z500 - /api/v1/getall [GET] - Method not implemented. 
+[Node] [ERROR] - 2022-12-05T06:33:31.621Z500 - /api/v1/getall [GET] - Method not implemented. 
+[Node] [ERROR] - 2022-12-05T06:35:28.861Z400 - /api/v1/create [POST] - property name should not exist, email must be an email 
+[Node] [ERROR] - 2022-12-05T06:35:46.679Z400 - /api/v1/create [POST] - property name should not exist 
+[Node] [ERROR] - 2022-12-05T06:35:53.842Z400 - /api/v1/create [POST] - property name should not exist 
+[Node] [ERROR] - 2022-12-05T06:35:58.583Z400 - /api/v1/create [POST] - property name should not exist 
+[Node] [ERROR] - 2022-12-05T06:40:40.802ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m23[0m:[93m30[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'deef'. Either declare one or provide an initializer.
+
+[7m23[0m     roleId: DataTypes.NUMBER deef,
+[7m  [0m [91m                             ~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m23[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m23[0m     roleId: DataTypes.NUMBER deef,
+[7m  [0m [91m                             ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m23[0m:[93m30[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'deef'. Either declare one or provide an initializer.
+
+[7m23[0m     roleId: DataTypes.NUMBER deef,
+[7m  [0m [91m                             ~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m23[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m23[0m     roleId: DataTypes.NUMBER deef,
+[7m  [0m [91m                             ~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T06:40:45.159ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m23[0m:[93m30[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'DE'. Either declare one or provide an initializer.
+
+[7m23[0m     roleId: DataTypes.NUMBER DE,
+[7m  [0m [91m                             ~~[0m
+[96msrc/databases/models/user.ts[0m:[93m23[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m23[0m     roleId: DataTypes.NUMBER DE,
+[7m  [0m [91m                             ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m23[0m:[93m30[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'DE'. Either declare one or provide an initializer.
+
+[7m23[0m     roleId: DataTypes.NUMBER DE,
+[7m  [0m [91m                             ~~[0m
+[96msrc/databases/models/user.ts[0m:[93m23[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m23[0m     roleId: DataTypes.NUMBER DE,
+[7m  [0m [91m                             ~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T06:53:43.349Z400 - /api/v1/create [POST] - property name should not exist 
+[Node] [ERROR] - 2022-12-05T06:54:41.022ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/user.dtos.ts[0m:[93m11[0m:[93m10[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'password'.
+
+[7m11[0m   public password: string | Buffer;
+[7m  [0m [91m         ~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/user.dtos.ts[0m:[93m11[0m:[93m10[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'password'.
+
+[7m11[0m   public password: string | Buffer;
+[7m  [0m [91m         ~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T06:55:00.738Z409 - /api/v1/create [POST] - This email admin022@thoughtwin.com already exists 
+[Node] [ERROR] - 2022-12-05T06:55:39.828ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/user.dtos.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS1213: [0mIdentifier expected. 'public' is a reserved word in strict mode. Class definitions are automatically in strict mode.
+
+[7m12[0m   public name: string | Buffer;
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/dtos/user.dtos.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS2304: [0mCannot find name 'public'.
+
+[7m12[0m   public name: string | Buffer;
+[7m  [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/user.dtos.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS1213: [0mIdentifier expected. 'public' is a reserved word in strict mode. Class definitions are automatically in strict mode.
+
+[7m12[0m   public name: string | Buffer;
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/dtos/user.dtos.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS2304: [0mCannot find name 'public'.
+
+[7m12[0m   public name: string | Buffer;
+[7m  [0m [91m  ~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T06:55:43.326ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/user.dtos.ts[0m:[93m11[0m:[93m4[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Is'.
+
+[7m11[0m   @Is
+[7m  [0m [91m   ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/user.dtos.ts[0m:[93m11[0m:[93m4[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Is'.
+
+[7m11[0m   @Is
+[7m  [0m [91m   ~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T06:55:56.652ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/user.dtos.ts[0m:[93m11[0m:[93m4[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Iso'.
+
+[7m11[0m   @Iso
+[7m  [0m [91m   ~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/user.dtos.ts[0m:[93m11[0m:[93m4[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Iso'.
+
+[7m11[0m   @Iso
+[7m  [0m [91m   ~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T06:57:15.642ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m24[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType '{ DataTypes: typeof DataTypes; "": any; }' is not assignable to type 'DataType | ModelAttributeColumnOptions<userModel>'.
+  Object literal may only specify known properties, and 'DataTypes' does not exist in type 'AbstractDataTypeConstructor | AbstractDataType | ModelAttributeColumnOptions<userModel>'.
+
+[7m24[0m       DataTypes.NUMBER
+[7m  [0m [91m      ~~~~~~~~~[0m
+
+  [96mnode_modules/sequelize/types/model.d.ts[0m:[93m1656[0m:[93m75[0m
+    [7m1656[0m export type ModelAttributes<M extends Model = Model, TAttributes = any> = {
+    [7m    [0m [96m                                                                          ~[0m
+    [7m1657[0m   /**
+    [7m    [0m [96m~~~~~[0m
+    [7m ...[0m 
+    [7m1660[0m   [name in keyof TAttributes]: DataType | ModelAttributeColumnOptions<M>;
+    [7m    [0m [96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    [7m1661[0m }
+    [7m    [0m [96m~[0m
+    The expected type comes from property 'roleId' which is declared here on type 'ModelAttributes<userModel, Optional<any, never>>'
+[96msrc/databases/models/user.ts[0m:[93m24[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m24[0m       DataTypes.NUMBER
+[7m  [0m [91m               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m24[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType '{ DataTypes: typeof DataTypes; "": any; }' is not assignable to type 'DataType | ModelAttributeColumnOptions<userModel>'.
+  Object literal may only specify known properties, and 'DataTypes' does not exist in type 'AbstractDataTypeConstructor | AbstractDataType | ModelAttributeColumnOptions<userModel>'.
+
+[7m24[0m       DataTypes.NUMBER
+[7m  [0m [91m      ~~~~~~~~~[0m
+
+  [96mnode_modules/sequelize/types/model.d.ts[0m:[93m1656[0m:[93m75[0m
+    [7m1656[0m export type ModelAttributes<M extends Model = Model, TAttributes = any> = {
+    [7m    [0m [96m                                                                          ~[0m
+    [7m1657[0m   /**
+    [7m    [0m [96m~~~~~[0m
+    [7m ...[0m 
+    [7m1660[0m   [name in keyof TAttributes]: DataType | ModelAttributeColumnOptions<M>;
+    [7m    [0m [96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    [7m1661[0m }
+    [7m    [0m [96m~[0m
+    The expected type comes from property 'roleId' which is declared here on type 'ModelAttributes<userModel, Optional<any, never>>'
+[96msrc/databases/models/user.ts[0m:[93m24[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m24[0m       DataTypes.NUMBER
+[7m  [0m [91m               ~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T06:57:31.317ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m25[0m:[93m7[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'defaultValue'. Either declare one or provide an initializer.
+
+[7m25[0m       defaultValue
+[7m  [0m [91m      ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m25[0m:[93m7[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'defaultValue'. Either declare one or provide an initializer.
+
+[7m25[0m       defaultValue
+[7m  [0m [91m      ~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:04:23.062ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m26[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m     },
+[7m  [0m [91m    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m26[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m     },
+[7m  [0m [91m    ~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:05:39.860Z500 - /api/v1/create [POST] - invalid input syntax for type bigint: "user" 
+[Node] [ERROR] - 2022-12-05T07:06:28.439Z500 - /api/v1/getall [GET] - Method not implemented. 
+[Node] [ERROR] - 2022-12-05T07:09:01.184Z500 - /api/v1/getall [GET] - Method not implemented. 
+[Node] [ERROR] - 2022-12-05T07:09:33.132ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m40[0m:[93m45[0m - [91merror[0m[90m TS2339: [0mProperty 'find' does not exist on type 'typeof userModel'.
+
+[7m40[0m     const users: IUser[] = await this.users.find();
+[7m  [0m [91m                                            ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m40[0m:[93m45[0m - [91merror[0m[90m TS2339: [0mProperty 'find' does not exist on type 'typeof userModel'.
+
+[7m40[0m     const users: IUser[] = await this.users.find();
+[7m  [0m [91m                                            ~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:10:24.010ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m40[0m:[93m11[0m - [91merror[0m[90m TS2322: [0mType 'userModel[]' is not assignable to type 'IUser[]'.
+  Type 'userModel' is missing the following properties from type 'IUser': id, name, email, phoneNumber, and 6 more.
+
+[7m40[0m     const users: IUser[] = await this.users.findAll();
+[7m  [0m [91m          ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m40[0m:[93m11[0m - [91merror[0m[90m TS2322: [0mType 'userModel[]' is not assignable to type 'IUser[]'.
+  Type 'userModel' is missing the following properties from type 'IUser': id, name, email, phoneNumber, and 6 more.
+
+[7m40[0m     const users: IUser[] = await this.users.findAll();
+[7m  [0m [91m          ~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:10:39.043ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m40[0m:[93m11[0m - [91merror[0m[90m TS2740: [0mType 'userModel[]' is missing the following properties from type 'userModel': password, _attributes, dataValues, _creationAttributes, and 27 more.
+
+[7m40[0m     const users: userModel = await this.users.findAll();
+[7m  [0m [91m          ~~~~~[0m
+[96msrc/services/user.services.ts[0m:[93m41[0m:[93m5[0m - [91merror[0m[90m TS2740: [0mType 'userModel' is missing the following properties from type 'IUser[]': length, pop, push, concat, and 29 more.
+
+[7m41[0m     return users;
+[7m  [0m [91m    ~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m40[0m:[93m11[0m - [91merror[0m[90m TS2740: [0mType 'userModel[]' is missing the following properties from type 'userModel': password, _attributes, dataValues, _creationAttributes, and 27 more.
+
+[7m40[0m     const users: userModel = await this.users.findAll();
+[7m  [0m [91m          ~~~~~[0m
+[96msrc/services/user.services.ts[0m:[93m41[0m:[93m5[0m - [91merror[0m[90m TS2740: [0mType 'userModel' is missing the following properties from type 'IUser[]': length, pop, push, concat, and 29 more.
+
+[7m41[0m     return users;
+[7m  [0m [91m    ~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:10:50.450ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m40[0m:[93m11[0m - [91merror[0m[90m TS2322: [0mType 'userModel[]' is not assignable to type 'IUser[]'.
+  Type 'userModel' is missing the following properties from type 'IUser': id, name, email, phoneNumber, and 6 more.
+
+[7m40[0m     const users: IUser[] = await this.users.findAll();
+[7m  [0m [91m          ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m40[0m:[93m11[0m - [91merror[0m[90m TS2322: [0mType 'userModel[]' is not assignable to type 'IUser[]'.
+  Type 'userModel' is missing the following properties from type 'IUser': id, name, email, phoneNumber, and 6 more.
+
+[7m40[0m     const users: IUser[] = await this.users.findAll();
+[7m  [0m [91m          ~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:11:01.625ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m40[0m:[93m11[0m - [91merror[0m[90m TS2740: [0mType 'userModel[]' is missing the following properties from type 'userModel': password, _attributes, dataValues, _creationAttributes, and 27 more.
+
+[7m40[0m     const user: userModel = await this.users.findAll();
+[7m  [0m [91m          ~~~~[0m
+[96msrc/services/user.services.ts[0m:[93m41[0m:[93m5[0m - [91merror[0m[90m TS2740: [0mType 'userModel' is missing the following properties from type 'IUser[]': length, pop, push, concat, and 29 more.
+
+[7m41[0m     return user;
+[7m  [0m [91m    ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m40[0m:[93m11[0m - [91merror[0m[90m TS2740: [0mType 'userModel[]' is missing the following properties from type 'userModel': password, _attributes, dataValues, _creationAttributes, and 27 more.
+
+[7m40[0m     const user: userModel = await this.users.findAll();
+[7m  [0m [91m          ~~~~[0m
+[96msrc/services/user.services.ts[0m:[93m41[0m:[93m5[0m - [91merror[0m[90m TS2740: [0mType 'userModel' is missing the following properties from type 'IUser[]': length, pop, push, concat, and 29 more.
+
+[7m41[0m     return user;
+[7m  [0m [91m    ~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:11:10.433ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/users.controller.ts[0m:[93m35[0m:[93m13[0m - [91merror[0m[90m TS2740: [0mType 'userModel' is missing the following properties from type 'IUser[]': length, pop, push, concat, and 29 more.
+
+[7m35[0m       const findAllUsersData: IUser[] = await this.userService.findAllUser();
+[7m  [0m [91m            ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/users.controller.ts[0m:[93m35[0m:[93m13[0m - [91merror[0m[90m TS2740: [0mType 'userModel' is missing the following properties from type 'IUser[]': length, pop, push, concat, and 29 more.
+
+[7m35[0m       const findAllUsersData: IUser[] = await this.userService.findAllUser();
+[7m  [0m [91m            ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:11:26.489ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/users.controller.ts[0m:[93m35[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'userModel[]' is not assignable to type 'IUser[]'.
+  Type 'userModel' is missing the following properties from type 'IUser': id, name, email, phoneNumber, and 6 more.
+
+[7m35[0m       const findAllUsersData: IUser[] = await this.userService.findAllUser();
+[7m  [0m [91m            ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/users.controller.ts[0m:[93m35[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'userModel[]' is not assignable to type 'IUser[]'.
+  Type 'userModel' is missing the following properties from type 'IUser': id, name, email, phoneNumber, and 6 more.
+
+[7m35[0m       const findAllUsersData: IUser[] = await this.userService.findAllUser();
+[7m  [0m [91m            ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:11:29.738ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m40[0m:[93m11[0m - [91merror[0m[90m TS2322: [0mType 'userModel[]' is not assignable to type 'IUser[]'.
+  Type 'userModel' is missing the following properties from type 'IUser': id, name, email, phoneNumber, and 6 more.
+
+[7m40[0m     const user: IUser[] = await this.users.findAll();
+[7m  [0m [91m          ~~~~[0m
+[96msrc/services/user.services.ts[0m:[93m41[0m:[93m12[0m - [91merror[0m[90m TS2663: [0mCannot find name 'users'. Did you mean the instance member 'this.users'?
+
+[7m41[0m     return users;
+[7m  [0m [91m           ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m40[0m:[93m11[0m - [91merror[0m[90m TS2322: [0mType 'userModel[]' is not assignable to type 'IUser[]'.
+  Type 'userModel' is missing the following properties from type 'IUser': id, name, email, phoneNumber, and 6 more.
+
+[7m40[0m     const user: IUser[] = await this.users.findAll();
+[7m  [0m [91m          ~~~~[0m
+[96msrc/services/user.services.ts[0m:[93m41[0m:[93m12[0m - [91merror[0m[90m TS2663: [0mCannot find name 'users'. Did you mean the instance member 'this.users'?
+
+[7m41[0m     return users;
+[7m  [0m [91m           ~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:11:32.882ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m39[0m:[93m11[0m - [91merror[0m[90m TS2322: [0mType 'userModel[]' is not assignable to type 'IUser[]'.
+  Type 'userModel' is missing the following properties from type 'IUser': id, name, email, phoneNumber, and 6 more.
+
+[7m39[0m     const user: IUser[] = await this.users.findAll();
+[7m  [0m [91m          ~~~~[0m
+[96msrc/services/user.services.ts[0m:[93m40[0m:[93m12[0m - [91merror[0m[90m TS2663: [0mCannot find name 'users'. Did you mean the instance member 'this.users'?
+
+[7m40[0m     return users;
+[7m  [0m [91m           ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m39[0m:[93m11[0m - [91merror[0m[90m TS2322: [0mType 'userModel[]' is not assignable to type 'IUser[]'.
+  Type 'userModel' is missing the following properties from type 'IUser': id, name, email, phoneNumber, and 6 more.
+
+[7m39[0m     const user: IUser[] = await this.users.findAll();
+[7m  [0m [91m          ~~~~[0m
+[96msrc/services/user.services.ts[0m:[93m40[0m:[93m12[0m - [91merror[0m[90m TS2663: [0mCannot find name 'users'. Did you mean the instance member 'this.users'?
+
+[7m40[0m     return users;
+[7m  [0m [91m           ~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:11:41.000ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m40[0m:[93m12[0m - [91merror[0m[90m TS2663: [0mCannot find name 'users'. Did you mean the instance member 'this.users'?
+
+[7m40[0m     return users;
+[7m  [0m [91m           ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m40[0m:[93m12[0m - [91merror[0m[90m TS2663: [0mCannot find name 'users'. Did you mean the instance member 'this.users'?
+
+[7m40[0m     return users;
+[7m  [0m [91m           ~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:12:26.461ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m11[0m - [91merror[0m[90m TS2740: [0mType 'userModel' is missing the following properties from type 'IUser': id, name, email, phoneNumber, and 6 more.
+
+[7m46[0m     const findUser: IUser = await this.users.findOne({ _id: userId });
+[7m  [0m [91m          ~~~~~~~~[0m
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m56[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<userModel>, options: NonNullFindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ _id: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and '_id' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<userModel>, options?: FindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ _id: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and '_id' does not exist in type 'FindOptions<any>'.
+
+[7m46[0m     const findUser: IUser = await this.users.findOne({ _id: userId });
+[7m  [0m [91m                                                       ~~~~~~~~~~~[0m
+
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m11[0m - [91merror[0m[90m TS2740: [0mType 'userModel' is missing the following properties from type 'IUser': id, name, email, phoneNumber, and 6 more.
+
+[7m46[0m     const findUser: IUser = await this.users.findOne({ _id: userId });
+[7m  [0m [91m          ~~~~~~~~[0m
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m56[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<userModel>, options: NonNullFindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ _id: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and '_id' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<userModel>, options?: FindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ _id: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and '_id' does not exist in type 'FindOptions<any>'.
+
+[7m46[0m     const findUser: IUser = await this.users.findOne({ _id: userId });
+[7m  [0m [91m                                                       ~~~~~~~~~~~[0m
+
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:12:38.480ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m60[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<userModel>, options: NonNullFindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ _id: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and '_id' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<userModel>, options?: FindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ _id: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and '_id' does not exist in type 'FindOptions<any>'.
+
+[7m46[0m     const findUser: userModel = await this.users.findOne({ _id: userId });
+[7m  [0m [91m                                                           ~~~~~~~~~~~[0m
+
+[96msrc/services/user.services.ts[0m:[93m49[0m:[93m5[0m - [91merror[0m[90m TS2740: [0mType 'userModel' is missing the following properties from type 'IUser': id, name, email, phoneNumber, and 6 more.
+
+[7m49[0m     return findUser;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m60[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<userModel>, options: NonNullFindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ _id: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and '_id' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<userModel>, options?: FindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ _id: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and '_id' does not exist in type 'FindOptions<any>'.
+
+[7m46[0m     const findUser: userModel = await this.users.findOne({ _id: userId });
+[7m  [0m [91m                                                           ~~~~~~~~~~~[0m
+
+[96msrc/services/user.services.ts[0m:[93m49[0m:[93m5[0m - [91merror[0m[90m TS2740: [0mType 'userModel' is missing the following properties from type 'IUser': id, name, email, phoneNumber, and 6 more.
+
+[7m49[0m     return findUser;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:12:44.659ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m60[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<userModel>, options: NonNullFindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ id: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'id' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<userModel>, options?: FindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ id: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'id' does not exist in type 'FindOptions<any>'.
+
+[7m46[0m     const findUser: userModel = await this.users.findOne({ id: userId });
+[7m  [0m [91m                                                           ~~~~~~~~~~[0m
+
+[96msrc/services/user.services.ts[0m:[93m49[0m:[93m5[0m - [91merror[0m[90m TS2740: [0mType 'userModel' is missing the following properties from type 'IUser': id, name, email, phoneNumber, and 6 more.
+
+[7m49[0m     return findUser;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m60[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<userModel>, options: NonNullFindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ id: string; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'id' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<userModel>, options?: FindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ id: string; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'id' does not exist in type 'FindOptions<any>'.
+
+[7m46[0m     const findUser: userModel = await this.users.findOne({ id: userId });
+[7m  [0m [91m                                                           ~~~~~~~~~~[0m
+
+[96msrc/services/user.services.ts[0m:[93m49[0m:[93m5[0m - [91merror[0m[90m TS2740: [0mType 'userModel' is missing the following properties from type 'IUser': id, name, email, phoneNumber, and 6 more.
+
+[7m49[0m     return findUser;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:18:57.277ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m60[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<userModel>, options: NonNullFindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ id: any; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'id' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<userModel>, options?: FindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ id: any; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'id' does not exist in type 'FindOptions<any>'.
+
+[7m46[0m     const findUser: userModel = await this.users.findOne({ id: userId });
+[7m  [0m [91m                                                           ~~~~~~~~~~[0m
+
+[96msrc/services/user.services.ts[0m:[93m49[0m:[93m5[0m - [91merror[0m[90m TS2740: [0mType 'userModel' is missing the following properties from type 'IUser': id, name, email, phoneNumber, and 6 more.
+
+[7m49[0m     return findUser;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m60[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<userModel>, options: NonNullFindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ id: any; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'id' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<userModel>, options?: FindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ id: any; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'id' does not exist in type 'FindOptions<any>'.
+
+[7m46[0m     const findUser: userModel = await this.users.findOne({ id: userId });
+[7m  [0m [91m                                                           ~~~~~~~~~~[0m
+
+[96msrc/services/user.services.ts[0m:[93m49[0m:[93m5[0m - [91merror[0m[90m TS2740: [0mType 'userModel' is missing the following properties from type 'IUser': id, name, email, phoneNumber, and 6 more.
+
+[7m49[0m     return findUser;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:39:39.630ZuncaughtException: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/src/associations/mixin.js:93:13)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[Node] [ERROR] - 2022-12-05T07:40:26.581ZuncaughtException: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/src/associations/mixin.js:93:13)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[Node] [ERROR] - 2022-12-05T07:40:51.904ZuncaughtException: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/src/associations/mixin.js:93:13)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[Node] [ERROR] - 2022-12-05T07:41:00.541ZuncaughtException: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/src/associations/mixin.js:93:13)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[Node] [ERROR] - 2022-12-05T07:42:39.377ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/role.ts[0m:[93m33[0m:[93m6[0m - [91merror[0m[90m TS2339: [0mProperty 'has' does not exist on type 'typeof role'.
+
+[7m33[0m role.has
+[7m  [0m [91m     ~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/role.ts[0m:[93m33[0m:[93m6[0m - [91merror[0m[90m TS2339: [0mProperty 'has' does not exist on type 'typeof role'.
+
+[7m33[0m role.has
+[7m  [0m [91m     ~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:42:45.383ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/role.ts[0m:[93m33[0m:[93m6[0m - [91merror[0m[90m TS2554: [0mExpected 1-2 arguments, but got 0.
+
+[7m33[0m role.belongsTo();
+[7m  [0m [91m     ~~~~~~~~~~~[0m
+
+  [96mnode_modules/sequelize/types/model.d.ts[0m:[93m2933[0m:[93m27[0m
+    [7m2933[0m     this: ModelStatic<M>, target: ModelStatic<T>, options?: BelongsToOptions
+    [7m    [0m [96m                          ~~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'target' was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/role.ts[0m:[93m33[0m:[93m6[0m - [91merror[0m[90m TS2554: [0mExpected 1-2 arguments, but got 0.
+
+[7m33[0m role.belongsTo();
+[7m  [0m [91m     ~~~~~~~~~~~[0m
+
+  [96mnode_modules/sequelize/types/model.d.ts[0m:[93m2933[0m:[93m27[0m
+    [7m2933[0m     this: ModelStatic<M>, target: ModelStatic<T>, options?: BelongsToOptions
+    [7m    [0m [96m                          ~~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'target' was not provided.
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:42:52.093ZuncaughtException: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/src/associations/mixin.js:93:13)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[Node] [ERROR] - 2022-12-05T07:43:08.129ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/role.ts[0m:[93m6[0m:[93m8[0m - [91merror[0m[90m TS2613: [0mModule '"/home/thoughtwin/Documents/EB_Ty/src/databases/models/user"' has no default export. Did you mean to use 'import { userModel } from "/home/thoughtwin/Documents/EB_Ty/src/databases/models/user"' instead?
+
+[7m6[0m import userModel from './user';
+[7m [0m [91m       ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/role.ts[0m:[93m6[0m:[93m8[0m - [91merror[0m[90m TS2613: [0mModule '"/home/thoughtwin/Documents/EB_Ty/src/databases/models/user"' has no default export. Did you mean to use 'import { userModel } from "/home/thoughtwin/Documents/EB_Ty/src/databases/models/user"' instead?
+
+[7m6[0m import userModel from './user';
+[7m [0m [91m       ~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:43:13.727ZuncaughtException: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/src/associations/mixin.js:93:13)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[Node] [ERROR] - 2022-12-05T07:43:42.956ZuncaughtException: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/src/associations/mixin.js:93:13)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[Node] [ERROR] - 2022-12-05T07:45:12.022ZuncaughtException: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/src/associations/mixin.js:93:13)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[Node] [ERROR] - 2022-12-05T07:45:16.632ZuncaughtException: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/src/associations/mixin.js:93:13)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[Node] [ERROR] - 2022-12-05T07:45:32.138ZuncaughtException: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/src/associations/mixin.js:93:13)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[Node] [ERROR] - 2022-12-05T07:46:14.134ZuncaughtException: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/src/associations/mixin.js:93:13)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[Node] [ERROR] - 2022-12-05T07:46:43.616ZuncaughtException: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/src/associations/mixin.js:93:13)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[Node] [ERROR] - 2022-12-05T07:47:07.301ZuncaughtException: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/src/associations/mixin.js:93:13)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[Node] [ERROR] - 2022-12-05T07:47:17.028ZuncaughtException: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/src/associations/mixin.js:93:13)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[Node] [ERROR] - 2022-12-05T07:47:51.205ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/role.ts[0m:[93m34[0m:[93m1[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m34[0m User.belongsTo(Role, { foreignKey: "roleId" });
+[7m  [0m [91m~~~~[0m
+[96msrc/databases/models/role.ts[0m:[93m34[0m:[93m16[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Role'. Did you mean 'role'?
+
+[7m34[0m User.belongsTo(Role, { foreignKey: "roleId" });
+[7m  [0m [91m               ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/role.ts[0m:[93m34[0m:[93m1[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m34[0m User.belongsTo(Role, { foreignKey: "roleId" });
+[7m  [0m [91m~~~~[0m
+[96msrc/databases/models/role.ts[0m:[93m34[0m:[93m16[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Role'. Did you mean 'role'?
+
+[7m34[0m User.belongsTo(Role, { foreignKey: "roleId" });
+[7m  [0m [91m               ~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:47:55.433ZuncaughtException: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/src/associations/mixin.js:93:13)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[Node] [ERROR] - 2022-12-05T07:47:58.553ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m35[0m:[93m1[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m35[0m User.belongsTo(Role, { foreignKey: "roleId" });
+[7m  [0m [91m~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m35[0m:[93m16[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Role'. Did you mean 'role'?
+
+[7m35[0m User.belongsTo(Role, { foreignKey: "roleId" });
+[7m  [0m [91m               ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m35[0m:[93m1[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m35[0m User.belongsTo(Role, { foreignKey: "roleId" });
+[7m  [0m [91m~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m35[0m:[93m16[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Role'. Did you mean 'role'?
+
+[7m35[0m User.belongsTo(Role, { foreignKey: "roleId" });
+[7m  [0m [91m               ~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:48:02.533ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m35[0m:[93m21[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Role'. Did you mean 'role'?
+
+[7m35[0m userModel.belongsTo(Role, { foreignKey: "roleId" });
+[7m  [0m [91m                    ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m35[0m:[93m21[0m - [91merror[0m[90m TS2552: [0mCannot find name 'Role'. Did you mean 'role'?
+
+[7m35[0m userModel.belongsTo(Role, { foreignKey: "roleId" });
+[7m  [0m [91m                    ~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:48:08.702ZuncaughtException: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/src/associations/mixin.js:93:13)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[Node] [ERROR] - 2022-12-05T07:48:13.811ZuncaughtException: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: roles.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (/home/thoughtwin/Documents/EB_Ty/node_modules/sequelize/src/associations/mixin.js:93:13)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/databases/models/role.ts:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[Node] [ERROR] - 2022-12-05T07:49:28.614ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m48[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Role'.
+
+[7m48[0m         model: Role,
+[7m  [0m [91m               ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m48[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Role'.
+
+[7m48[0m         model: Role,
+[7m  [0m [91m               ~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:49:50.291ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m43[0m:[93m49[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'void' nor 'any' must return a value.
+
+[7m43[0m   public async findUserById(userId: userModel): Promise<IUser> {
+[7m  [0m [91m                                                ~~~~~~~~~~~~~~[0m
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m77[0m - [91merror[0m[90m TS2554: [0mExpected 0-1 arguments, but got 2.
+
+[7m46[0m     const findUser: any = await this.users.findOne({ where: { id: userId } ,{in}});
+[7m  [0m [91m                                                                            ~~~~[0m
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m77[0m - [91merror[0m[90m TS1136: [0mProperty assignment expected.
+
+[7m46[0m     const findUser: any = await this.users.findOne({ where: { id: userId } ,{in}});
+[7m  [0m [91m                                                                            ~[0m
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m80[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m46[0m     const findUser: any = await this.users.findOne({ where: { id: userId } ,{in}});
+[7m  [0m [91m                                                                               ~[0m
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m81[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m46[0m     const findUser: any = await this.users.findOne({ where: { id: userId } ,{in}});
+[7m  [0m [91m                                                                                ~[0m
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m82[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m46[0m     const findUser: any = await this.users.findOne({ where: { id: userId } ,{in}});
+[7m  [0m [91m                                                                                 ~[0m
+[96msrc/services/user.services.ts[0m:[93m47[0m:[93m9[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m47[0m     if (!findUser) throw new ConflictException("User doesn't exist");
+[7m  [0m [91m        ~[0m
+[96msrc/services/user.services.ts[0m:[93m47[0m:[93m20[0m - [91merror[0m[90m TS1144: [0m'{' or ';' expected.
+
+[7m47[0m     if (!findUser) throw new ConflictException("User doesn't exist");
+[7m  [0m [91m                   ~~~~~[0m
+[96msrc/services/user.services.ts[0m:[93m50[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m50[0m   }
+[7m  [0m [91m  ~[0m
+[96msrc/services/user.services.ts[0m:[93m77[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m77[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m43[0m:[93m49[0m - [91merror[0m[90m TS2355: [0mA function whose declared type is neither 'void' nor 'any' must return a value.
+
+[7m43[0m   public async findUserById(userId: userModel): Promise<IUser> {
+[7m  [0m [91m                                                ~~~~~~~~~~~~~~[0m
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m77[0m - [91merror[0m[90m TS2554: [0mExpected 0-1 arguments, but got 2.
+
+[7m46[0m     const findUser: any = await this.users.findOne({ where: { id: userId } ,{in}});
+[7m  [0m [91m                                                                            ~~~~[0m
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m77[0m - [91merror[0m[90m TS1136: [0mProperty assignment expected.
+
+[7m46[0m     const findUser: any = await this.users.findOne({ where: { id: userId } ,{in}});
+[7m  [0m [91m                                                                            ~[0m
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m80[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m46[0m     const findUser: any = await this.users.findOne({ where: { id: userId } ,{in}});
+[7m  [0m [91m                                                                               ~[0m
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m81[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m46[0m     const findUser: any = await this.users.findOne({ where: { id: userId } ,{in}});
+[7m  [0m [91m                                                                                ~[0m
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m82[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m46[0m     const findUser: any = await this.users.findOne({ where: { id: userId } ,{in}});
+[7m  [0m [91m                                                                                 ~[0m
+[96msrc/services/user.services.ts[0m:[93m47[0m:[93m9[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m47[0m     if (!findUser) throw new ConflictException("User doesn't exist");
+[7m  [0m [91m        ~[0m
+[96msrc/services/user.services.ts[0m:[93m47[0m:[93m20[0m - [91merror[0m[90m TS1144: [0m'{' or ';' expected.
+
+[7m47[0m     if (!findUser) throw new ConflictException("User doesn't exist");
+[7m  [0m [91m                   ~~~~~[0m
+[96msrc/services/user.services.ts[0m:[93m50[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m50[0m   }
+[7m  [0m [91m  ~[0m
+[96msrc/services/user.services.ts[0m:[93m77[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m77[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:49:59.401ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m77[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<userModel>, options: NonNullFindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ where: { id: userModel; }; includeinclude: { model: any; attributes: string[]; }; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'includeinclude' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<userModel>, options?: FindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ where: { id: userModel; }; includeinclude: { model: any; attributes: string[]; }; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'includeinclude' does not exist in type 'FindOptions<any>'.
+
+[7m46[0m     const findUser: any = await this.users.findOne({ where: { id: userId } ,includeinclude: {
+[7m  [0m [91m                                                                            ~~~~~~~~~~~~~~~~~[0m
+[7m47[0m       model: Role,
+[7m  [0m [91m~~~~~~~~~~~~~~~~~~[0m
+[7m48[0m       attributes: ["id", "roleName"]
+[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m49[0m     }});
+[7m  [0m [91m~~~~~[0m
+
+[96msrc/services/user.services.ts[0m:[93m47[0m:[93m14[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Role'.
+
+[7m47[0m       model: Role,
+[7m  [0m [91m             ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m46[0m:[93m77[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<userModel>, options: NonNullFindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ where: { id: userModel; }; includeinclude: { model: any; attributes: string[]; }; }' is not assignable to parameter of type 'NonNullFindOptions<any>'.
+      Object literal may only specify known properties, and 'includeinclude' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<userModel>, options?: FindOptions<any>): Promise<userModel>', gave the following error.
+    Argument of type '{ where: { id: userModel; }; includeinclude: { model: any; attributes: string[]; }; }' is not assignable to parameter of type 'FindOptions<any>'.
+      Object literal may only specify known properties, and 'includeinclude' does not exist in type 'FindOptions<any>'.
+
+[7m46[0m     const findUser: any = await this.users.findOne({ where: { id: userId } ,includeinclude: {
+[7m  [0m [91m                                                                            ~~~~~~~~~~~~~~~~~[0m
+[7m47[0m       model: Role,
+[7m  [0m [91m~~~~~~~~~~~~~~~~~~[0m
+[7m48[0m       attributes: ["id", "roleName"]
+[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m49[0m     }});
+[7m  [0m [91m~~~~~[0m
+
+[96msrc/services/user.services.ts[0m:[93m47[0m:[93m14[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Role'.
+
+[7m47[0m       model: Role,
+[7m  [0m [91m             ~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:50:05.646ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m48[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Role'.
+
+[7m48[0m         model: Role,
+[7m  [0m [91m               ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user.services.ts[0m:[93m48[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Role'.
+
+[7m48[0m         model: Role,
+[7m  [0m [91m               ~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T07:50:11.952ZuncaughtException: Cannot find module '@/databases/models/role'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/services/user.services.ts
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/users.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+Error: Cannot find module '@/databases/models/role'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/services/user.services.ts
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/users.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/thoughtwin/Documents/EB_Ty/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/services/user.services.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+[Node] [ERROR] - 2022-12-05T07:50:17.831ZuncaughtException: Cannot find module '@/databases/models/role'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/services/user.services.ts
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/users.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+Error: Cannot find module '@/databases/models/role'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/services/user.services.ts
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/users.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/thoughtwin/Documents/EB_Ty/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/services/user.services.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+[Node] [ERROR] - 2022-12-05T07:50:25.541ZuncaughtException: Cannot find module '@/databases/models/role'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/services/user.services.ts
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/users.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+Error: Cannot find module '@/databases/models/role'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/services/user.services.ts
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/users.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/user.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/thoughtwin/Documents/EB_Ty/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/services/user.services.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+[Node] [ERROR] - 2022-12-05T07:50:42.015Z500 - /api/v1/get/7 [GET] - column role.roleName does not exist 
+[Node] [ERROR] - 2022-12-05T09:35:58.901ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m14[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType '{}' is not assignable to type 'DataType | ModelAttributeColumnOptions<userModel>'.
+
+[7m14[0m     uuid: {
+[7m  [0m [91m    ~~~~[0m
+
+  [96mnode_modules/sequelize/types/model.d.ts[0m:[93m1656[0m:[93m75[0m
+    [7m1656[0m export type ModelAttributes<M extends Model = Model, TAttributes = any> = {
+    [7m    [0m [96m                                                                          ~[0m
+    [7m1657[0m   /**
+    [7m    [0m [96m~~~~~[0m
+    [7m ...[0m 
+    [7m1660[0m   [name in keyof TAttributes]: DataType | ModelAttributeColumnOptions<M>;
+    [7m    [0m [96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    [7m1661[0m }
+    [7m    [0m [96m~[0m
+    The expected type comes from property 'uuid' which is declared here on type 'ModelAttributes<userModel, Optional<any, never>>'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m14[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType '{}' is not assignable to type 'DataType | ModelAttributeColumnOptions<userModel>'.
+
+[7m14[0m     uuid: {
+[7m  [0m [91m    ~~~~[0m
+
+  [96mnode_modules/sequelize/types/model.d.ts[0m:[93m1656[0m:[93m75[0m
+    [7m1656[0m export type ModelAttributes<M extends Model = Model, TAttributes = any> = {
+    [7m    [0m [96m                                                                          ~[0m
+    [7m1657[0m   /**
+    [7m    [0m [96m~~~~~[0m
+    [7m ...[0m 
+    [7m1660[0m   [name in keyof TAttributes]: DataType | ModelAttributeColumnOptions<M>;
+    [7m    [0m [96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    [7m1661[0m }
+    [7m    [0m [96m~[0m
+    The expected type comes from property 'uuid' which is declared here on type 'ModelAttributes<userModel, Optional<any, never>>'
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T09:36:01.778ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m15[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m15[0m       type: Sequelize.UUID,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m16[0m:[93m21[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m16[0m       defaultValue: Sequelize.UUIDV4,
+[7m  [0m [91m                    ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m15[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m15[0m       type: Sequelize.UUID,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m16[0m:[93m21[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m16[0m       defaultValue: Sequelize.UUIDV4,
+[7m  [0m [91m                    ~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T09:36:24.625ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m20[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType '{ DataTypes: typeof DataTypes; "": any; }' is not assignable to type 'DataType | ModelAttributeColumnOptions<userModel>'.
+  Object literal may only specify known properties, and 'DataTypes' does not exist in type 'AbstractDataTypeConstructor | AbstractDataType | ModelAttributeColumnOptions<userModel>'.
+
+[7m20[0m       DataTypes.STRING
+[7m  [0m [91m      ~~~~~~~~~[0m
+
+  [96mnode_modules/sequelize/types/model.d.ts[0m:[93m1656[0m:[93m75[0m
+    [7m1656[0m export type ModelAttributes<M extends Model = Model, TAttributes = any> = {
+    [7m    [0m [96m                                                                          ~[0m
+    [7m1657[0m   /**
+    [7m    [0m [96m~~~~~[0m
+    [7m ...[0m 
+    [7m1660[0m   [name in keyof TAttributes]: DataType | ModelAttributeColumnOptions<M>;
+    [7m    [0m [96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    [7m1661[0m }
+    [7m    [0m [96m~[0m
+    The expected type comes from property 'name' which is declared here on type 'ModelAttributes<userModel, Optional<any, never>>'
+[96msrc/databases/models/user.ts[0m:[93m20[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m20[0m       DataTypes.STRING
+[7m  [0m [91m               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m20[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType '{ DataTypes: typeof DataTypes; "": any; }' is not assignable to type 'DataType | ModelAttributeColumnOptions<userModel>'.
+  Object literal may only specify known properties, and 'DataTypes' does not exist in type 'AbstractDataTypeConstructor | AbstractDataType | ModelAttributeColumnOptions<userModel>'.
+
+[7m20[0m       DataTypes.STRING
+[7m  [0m [91m      ~~~~~~~~~[0m
+
+  [96mnode_modules/sequelize/types/model.d.ts[0m:[93m1656[0m:[93m75[0m
+    [7m1656[0m export type ModelAttributes<M extends Model = Model, TAttributes = any> = {
+    [7m    [0m [96m                                                                          ~[0m
+    [7m1657[0m   /**
+    [7m    [0m [96m~~~~~[0m
+    [7m ...[0m 
+    [7m1660[0m   [name in keyof TAttributes]: DataType | ModelAttributeColumnOptions<M>;
+    [7m    [0m [96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    [7m1661[0m }
+    [7m    [0m [96m~[0m
+    The expected type comes from property 'name' which is declared here on type 'ModelAttributes<userModel, Optional<any, never>>'
+[96msrc/databases/models/user.ts[0m:[93m20[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m20[0m       DataTypes.STRING
+[7m  [0m [91m               ~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T12:47:13.732ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m18[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m18[0m       type: Sequelize.BIGINT,
+[7m  [0m [91m            ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m18[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m18[0m       type: Sequelize.BIGINT,
+[7m  [0m [91m            ~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T12:52:10.847ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m18[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m18[0m       type: Sequelize.BIGINT,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m21[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m21[0m       type: Sequelize.UUID,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m22[0m:[93m21[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m22[0m       defaultValue: Sequelize.UUIDV4,
+[7m  [0m [91m                    ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m26[0m       type: Sequelize.STRING,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m29[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m29[0m       type: Sequelize.STRING,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m33[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m33[0m       type: Sequelize.STRING,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m36[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m36[0m       type: Sequelize.INTEGER,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m40[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m40[0m       type: Sequelize.BIGINT,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m49[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m49[0m       type: Sequelize.BOOLEAN,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m54[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m54[0m       type: Sequelize.DATE,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m58[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m58[0m       type: Sequelize.DATE,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m62[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m62[0m       type: Sequelize.DATE,
+[7m  [0m [91m            ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m18[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m18[0m       type: Sequelize.BIGINT,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m21[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m21[0m       type: Sequelize.UUID,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m22[0m:[93m21[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m22[0m       defaultValue: Sequelize.UUIDV4,
+[7m  [0m [91m                    ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m26[0m       type: Sequelize.STRING,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m29[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m29[0m       type: Sequelize.STRING,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m33[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m33[0m       type: Sequelize.STRING,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m36[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m36[0m       type: Sequelize.INTEGER,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m40[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m40[0m       type: Sequelize.BIGINT,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m49[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m49[0m       type: Sequelize.BOOLEAN,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m54[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m54[0m       type: Sequelize.DATE,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m58[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m58[0m       type: Sequelize.DATE,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m62[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m62[0m       type: Sequelize.DATE,
+[7m  [0m [91m            ~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T12:52:17.469ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m18[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m18[0m       type: Sequelize.BIGINT,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m21[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m21[0m       type: Sequelize.UUID,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m22[0m:[93m21[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m22[0m       defaultValue: Sequelize.UUIDV4,
+[7m  [0m [91m                    ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m26[0m       type: Sequelize.STRING,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m29[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m29[0m       type: Sequelize.STRING,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m33[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m33[0m       type: Sequelize.STRING,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m36[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m36[0m       type: Sequelize.INTEGER,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m40[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m40[0m       type: Sequelize.BIGINT,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m49[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m49[0m       type: Sequelize.BOOLEAN,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m54[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m54[0m       type: Sequelize.DATE,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m58[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m58[0m       type: Sequelize.DATE,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m62[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m62[0m       type: Sequelize.DATE,
+[7m  [0m [91m            ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m18[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m18[0m       type: Sequelize.BIGINT,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m21[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m21[0m       type: Sequelize.UUID,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m22[0m:[93m21[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m22[0m       defaultValue: Sequelize.UUIDV4,
+[7m  [0m [91m                    ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m26[0m       type: Sequelize.STRING,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m29[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m29[0m       type: Sequelize.STRING,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m33[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m33[0m       type: Sequelize.STRING,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m36[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m36[0m       type: Sequelize.INTEGER,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m40[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m40[0m       type: Sequelize.BIGINT,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m49[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m49[0m       type: Sequelize.BOOLEAN,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m54[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m54[0m       type: Sequelize.DATE,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m58[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m58[0m       type: Sequelize.DATE,
+[7m  [0m [91m            ~~~~~~~~~[0m
+[96msrc/databases/models/user.ts[0m:[93m62[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m62[0m       type: Sequelize.DATE,
+[7m  [0m [91m            ~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T12:52:24.821ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m18[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m18[0m       type: .BIGINT,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m21[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m21[0m       type: .UUID,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m22[0m:[93m21[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m       defaultValue: .UUIDV4,
+[7m  [0m [91m                    ~[0m
+[96msrc/databases/models/user.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m       type: .STRING,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m29[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m29[0m       type: .STRING,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m33[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m33[0m       type: .STRING,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m36[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m36[0m       type: .INTEGER,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m40[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m40[0m       type: .BIGINT,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m49[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m49[0m       type: .BOOLEAN,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m54[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m54[0m       type: .DATE,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m58[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m58[0m       type: .DATE,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m62[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m62[0m       type: .DATE,
+[7m  [0m [91m            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/user.ts[0m:[93m18[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m18[0m       type: .BIGINT,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m21[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m21[0m       type: .UUID,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m22[0m:[93m21[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m       defaultValue: .UUIDV4,
+[7m  [0m [91m                    ~[0m
+[96msrc/databases/models/user.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m       type: .STRING,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m29[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m29[0m       type: .STRING,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m33[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m33[0m       type: .STRING,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m36[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m36[0m       type: .INTEGER,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m40[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m40[0m       type: .BIGINT,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m49[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m49[0m       type: .BOOLEAN,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m54[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m54[0m       type: .DATE,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m58[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m58[0m       type: .DATE,
+[7m  [0m [91m            ~[0m
+[96msrc/databases/models/user.ts[0m:[93m62[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m62[0m       type: .DATE,
+[7m  [0m [91m            ~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-05T12:56:21.428ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/role.ts[0m:[93m19[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'BIGINT' does not exist on type 'typeof Sequelize'.
+
+[7m19[0m       type: Sequelize.BIGINT,
+[7m  [0m [91m                      ~~~~~~[0m
+[96msrc/databases/models/role.ts[0m:[93m22[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'UUID' does not exist on type 'typeof Sequelize'.
+
+[7m22[0m       type: Sequelize.UUID,
+[7m  [0m [91m                      ~~~~[0m
+[96msrc/databases/models/role.ts[0m:[93m23[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'UUIDV4' does not exist on type 'typeof Sequelize'.
+
+[7m23[0m       defaultValue: Sequelize.UUIDV4,
+[7m  [0m [91m                              ~~~~~~[0m
+[96msrc/databases/models/role.ts[0m:[93m27[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'STRING' does not exist on type 'typeof Sequelize'.
+
+[7m27[0m       type: Sequelize.STRING,
+[7m  [0m [91m                      ~~~~~~[0m
+[96msrc/databases/models/role.ts[0m:[93m31[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'BOOLEAN' does not exist on type 'typeof Sequelize'.
+
+[7m31[0m       type: Sequelize.BOOLEAN,
+[7m  [0m [91m                      ~~~~~~~[0m
+[96msrc/databases/models/role.ts[0m:[93m36[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'DATE' does not exist on type 'typeof Sequelize'.
+
+[7m36[0m       type: Sequelize.DATE,
+[7m  [0m [91m                      ~~~~[0m
+[96msrc/databases/models/role.ts[0m:[93m40[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'DATE' does not exist on type 'typeof Sequelize'.
+
+[7m40[0m       type: Sequelize.DATE,
+[7m  [0m [91m                      ~~~~[0m
+[96msrc/databases/models/role.ts[0m:[93m44[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'DATE' does not exist on type 'typeof Sequelize'.
+
+[7m44[0m       type: Sequelize.DATE,
+[7m  [0m [91m                      ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/databases/models/role.ts[0m:[93m19[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'BIGINT' does not exist on type 'typeof Sequelize'.
+
+[7m19[0m       type: Sequelize.BIGINT,
+[7m  [0m [91m                      ~~~~~~[0m
+[96msrc/databases/models/role.ts[0m:[93m22[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'UUID' does not exist on type 'typeof Sequelize'.
+
+[7m22[0m       type: Sequelize.UUID,
+[7m  [0m [91m                      ~~~~[0m
+[96msrc/databases/models/role.ts[0m:[93m23[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'UUIDV4' does not exist on type 'typeof Sequelize'.
+
+[7m23[0m       defaultValue: Sequelize.UUIDV4,
+[7m  [0m [91m                              ~~~~~~[0m
+[96msrc/databases/models/role.ts[0m:[93m27[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'STRING' does not exist on type 'typeof Sequelize'.
+
+[7m27[0m       type: Sequelize.STRING,
+[7m  [0m [91m                      ~~~~~~[0m
+[96msrc/databases/models/role.ts[0m:[93m31[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'BOOLEAN' does not exist on type 'typeof Sequelize'.
+
+[7m31[0m       type: Sequelize.BOOLEAN,
+[7m  [0m [91m                      ~~~~~~~[0m
+[96msrc/databases/models/role.ts[0m:[93m36[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'DATE' does not exist on type 'typeof Sequelize'.
+
+[7m36[0m       type: Sequelize.DATE,
+[7m  [0m [91m                      ~~~~[0m
+[96msrc/databases/models/role.ts[0m:[93m40[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'DATE' does not exist on type 'typeof Sequelize'.
+
+[7m40[0m       type: Sequelize.DATE,
+[7m  [0m [91m                      ~~~~[0m
+[96msrc/databases/models/role.ts[0m:[93m44[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'DATE' does not exist on type 'typeof Sequelize'.
+
+[7m44[0m       type: Sequelize.DATE,
+[7m  [0m [91m                      ~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)

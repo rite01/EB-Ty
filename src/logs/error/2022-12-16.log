@@ -1,0 +1,1332 @@
+[Node] [ERROR] - 2022-12-16T06:17:57.007ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m188[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'IDesignation'.
+
+[7m188[0m       const designationData: IDesignation = req.body;
+[7m   [0m [91m                             ~~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'designationService' does not exist on type 'UsersController'.
+
+[7m189[0m       const data = await this.designationService.updateDesignation(id, designationData);
+[7m   [0m [91m                              ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m188[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'IDesignation'.
+
+[7m188[0m       const designationData: IDesignation = req.body;
+[7m   [0m [91m                             ~~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'designationService' does not exist on type 'UsersController'.
+
+[7m189[0m       const data = await this.designationService.updateDesignation(id, designationData);
+[7m   [0m [91m                              ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T06:18:07.097ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m188[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'IDesignation'.
+
+[7m188[0m       const designationData: IDesignation = req.body;
+[7m   [0m [91m                             ~~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'designationService' does not exist on type 'UsersController'.
+
+[7m189[0m       const data = await this.designationService.updateDesignation(id, designationData);
+[7m   [0m [91m                              ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m188[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'IDesignation'.
+
+[7m188[0m       const designationData: IDesignation = req.body;
+[7m   [0m [91m                             ~~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'designationService' does not exist on type 'UsersController'.
+
+[7m189[0m       const data = await this.designationService.updateDesignation(id, designationData);
+[7m   [0m [91m                              ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T06:18:49.397ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T06:19:12.547ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T06:19:23.401ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T06:19:36.324ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T06:20:06.836ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T06:20:17.596ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T06:20:58.137ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T06:21:05.497ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T06:21:24.386ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T06:21:53.949ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T06:22:00.183ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T06:23:40.095ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUser' does not exist on type 'UserService'.
+
+[7m189[0m       const data = await this.userService.updateUser(id, designationData);
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T06:24:05.023ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m64[0m - [91merror[0m[90m TS2304: [0mCannot find name 'designationData'.
+
+[7m189[0m       const data = await this.userService.updateUserDetail(id, designationData);
+[7m   [0m [91m                                                               ~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m189[0m:[93m64[0m - [91merror[0m[90m TS2304: [0mCannot find name 'designationData'.
+
+[7m189[0m       const data = await this.userService.updateUserDetail(id, designationData);
+[7m   [0m [91m                                                               ~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T06:26:55.778ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/user.routes.ts[0m:[93m25[0m:[93m60[0m - [91merror[0m[90m TS2339: [0mProperty 'profileController' does not exist on type 'Route'.
+
+[7m25[0m       this.router.patch(RoutesConstants.ADMIN.UPDATE, this.profileController.updateProfile);
+[7m  [0m [91m                                                           ~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/user.routes.ts[0m:[93m25[0m:[93m60[0m - [91merror[0m[90m TS2339: [0mProperty 'profileController' does not exist on type 'Route'.
+
+[7m25[0m       this.router.patch(RoutesConstants.ADMIN.UPDATE, this.profileController.updateProfile);
+[7m  [0m [91m                                                           ~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T08:01:21.669ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m12[0m:[93m7[0m - [91merror[0m[90m TS2304: [0mCannot find name 'post'.
+
+[7m12[0m   *   post:
+[7m  [0m [91m      ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m13[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'tags'.
+
+[7m13[0m   *     tags:
+[7m  [0m [91m        ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m14[0m:[93m12[0m - [91merror[0m[90m TS2304: [0mCannot find name 'department'.
+
+[7m14[0m   *      - department CRUD
+[7m  [0m [91m           ~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m14[0m:[93m23[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CRUD'.
+
+[7m14[0m   *      - department CRUD
+[7m  [0m [91m                      ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m15[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'description'.
+
+[7m15[0m   *     description: Cerate department
+[7m  [0m [91m        ~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m15[0m:[93m22[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Cerate'.
+
+[7m15[0m   *     description: Cerate department
+[7m  [0m [91m                     ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m15[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'department'.
+
+[7m15[0m   *     description: Cerate department
+[7m  [0m [91m                            ~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m16[0m:[93m9[0m - [91merror[0m[90m TS2552: [0mCannot find name 'produces'. Did you mean 'process'?
+
+[7m16[0m   *     produces:
+[7m  [0m [91m        ~~~~~~~~[0m
+
+  [96mnode_modules/@types/node/globals.d.ts[0m:[93m27[0m:[93m13[0m
+    [7m27[0m declare var process: NodeJS.Process;
+    [7m  [0m [96m            ~~~~~~~[0m
+    'process' is declared here.
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m17[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'application'.
+
+[7m17[0m   *       - application/json
+[7m  [0m [91m            ~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m17[0m:[93m25[0m - [91merror[0m[90m TS2552: [0mCannot find name 'json'. Did you mean 'JSON'?
+
+[7m17[0m   *       - application/json
+[7m  [0m [91m                        ~~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.es5.d.ts[0m:[93m1159[0m:[93m13[0m
+    [7m1159[0m declare var JSON: JSON;
+    [7m    [0m [96m            ~~~~[0m
+    'JSON' is declared here.
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m18[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'parameters'.
+
+[7m18[0m   *     parameters:
+[7m  [0m [91m        ~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m19[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'body'.
+
+[7m19[0m   *       - name: body
+[7m  [0m [91m                  ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m20[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'description'.
+
+[7m20[0m   *         description: user data.
+[7m  [0m [91m            ~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m20[0m:[93m26[0m - [91merror[0m[90m TS2304: [0mCannot find name 'user'.
+
+[7m20[0m   *         description: user data.
+[7m  [0m [91m                         ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m20[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'data'.
+
+[7m20[0m   *         description: user data.
+[7m  [0m [91m                              ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m21[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'body'.
+
+[7m21[0m   *         in: body
+[7m  [0m [91m                ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m22[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'required'.
+
+[7m22[0m   *         required: true
+[7m  [0m [91m            ~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m22[0m:[93m23[0m - [91merror[0m[90m TS2362: [0mThe left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+[7m22[0m   *         required: true
+[7m  [0m [91m                      ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'schema'.
+
+[7m23[0m   *         schema:
+[7m  [0m [91m            ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m24[0m:[93m15[0m - [91merror[0m[90m TS2304: [0mCannot find name '$ref'.
+
+[7m24[0m   *           $ref: '#/definitions/Create'
+[7m  [0m [91m              ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m24[0m:[93m21[0m - [91merror[0m[90m TS2362: [0mThe left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+[7m24[0m   *           $ref: '#/definitions/Create'
+[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m25[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'responses'.
+
+[7m25[0m   *     responses:
+[7m  [0m [91m        ~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m27[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'description'.
+
+[7m27[0m   *         description: success
+[7m  [0m [91m            ~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m27[0m:[93m26[0m - [91merror[0m[90m TS2304: [0mCannot find name 'success'.
+
+[7m27[0m   *         description: success
+[7m  [0m [91m                         ~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m28[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'definitions'.
+
+[7m28[0m   * definitions:
+[7m  [0m [91m    ~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m29[0m:[93m8[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Create'.
+
+[7m29[0m   *    Create:
+[7m  [0m [91m       ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m30[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'required'.
+
+[7m30[0m   *      required:
+[7m  [0m [91m         ~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m32[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'level'.
+
+[7m32[0m   *          - level
+[7m  [0m [91m               ~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m33[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'properties'.
+
+[7m33[0m   *      properties:
+[7m  [0m [91m         ~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m34[0m:[93m12[0m - [91merror[0m[90m TS2363: [0mThe right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+[7m34[0m   *        name:
+[7m  [0m [91m           ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m35[0m:[93m14[0m - [91merror[0m[90m TS2304: [0mCannot find name 'type'.
+
+[7m35[0m   *          type: string
+[7m  [0m [91m             ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m35[0m:[93m20[0m - [91merror[0m[90m TS2693: [0m'string' only refers to a type, but is being used as a value here.
+
+[7m35[0m   *          type: string
+[7m  [0m [91m                   ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m36[0m:[93m14[0m - [91merror[0m[90m TS2304: [0mCannot find name 'description'.
+
+[7m36[0m   *          description: User name
+[7m  [0m [91m             ~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m36[0m:[93m27[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m36[0m   *          description: User name
+[7m  [0m [91m                          ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m36[0m:[93m32[0m - [91merror[0m[90m TS2362: [0mThe left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+[7m36[0m   *          description: User name
+[7m  [0m [91m                               ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m37[0m:[93m12[0m - [91merror[0m[90m TS2304: [0mCannot find name 'level'.
+
+[7m37[0m   *        level:
+[7m  [0m [91m           ~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m38[0m:[93m14[0m - [91merror[0m[90m TS2304: [0mCannot find name 'type'.
+
+[7m38[0m   *          type: enum
+[7m  [0m [91m             ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m39[0m:[93m14[0m - [91merror[0m[90m TS2304: [0mCannot find name 'description'.
+
+[7m39[0m   *          description: User email
+[7m  [0m [91m             ~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m39[0m:[93m27[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m39[0m   *          description: User email
+[7m  [0m [91m                          ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m39[0m:[93m32[0m - [91merror[0m[90m TS2304: [0mCannot find name 'email'.
+
+[7m39[0m   *          description: User email
+[7m  [0m [91m                               ~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m40[0m:[93m4[0m - [91merror[0m[90m TS2363: [0mThe right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+[7m40[0m   */
+[7m  [0m [91m   ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m42[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'createBranch'.
+
+[7m42[0m   public createBranch = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m         ~~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m45[0m:[93m35[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.
+
+[7m45[0m       const data: IBranch = await this.branchService.createBranch(departmentData);
+[7m  [0m [91m                                  ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m53[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getAllBranches'.
+
+[7m53[0m   public getAllBranches = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m         ~~~~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m55[0m:[93m37[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.
+
+[7m55[0m       const data: IBranch[] = await this.branchService.findAllBranches();
+[7m  [0m [91m                                    ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m63[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getBranchById'.
+
+[7m63[0m   public getBranchById = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m66[0m:[93m35[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.
+
+[7m66[0m       const data: IBranch = await this.branchService.findBranchById(id);
+[7m  [0m [91m                                  ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m74[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'updateBranch'.
+
+[7m74[0m   public updateBranch = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m         ~~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m78[0m:[93m26[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.
+
+[7m78[0m       const data = await this.branchService.updateBranch(id, branchData);
+[7m  [0m [91m                         ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m86[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'deleteBranch'.
+
+[7m86[0m   public deleteBranch = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m         ~~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m89[0m:[93m26[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.
+
+[7m89[0m       const data = await this.branchService.deleteBranch(id);
+[7m  [0m [91m                         ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m9[0m   * @swagger
+[7m [0m [91m    ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m11[0m   * /department/create:
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m11[0m:[93m5[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m11[0m   * /department/create:
+[7m  [0m [91m    ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m11[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m11[0m   * /department/create:
+[7m  [0m [91m                      ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m12[0m   *   post:
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m12[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m12[0m   *   post:
+[7m  [0m [91m          ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m13[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m13[0m   *     tags:
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m13[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m13[0m   *     tags:
+[7m  [0m [91m            ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m14[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m14[0m   *      - department CRUD
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m14[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m14[0m   *      - department CRUD
+[7m  [0m [91m                      ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m15[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m15[0m   *     description: Cerate department
+[7m  [0m [91m                   ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m15[0m:[93m22[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m15[0m   *     description: Cerate department
+[7m  [0m [91m                     ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m16[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m16[0m   *     produces:
+[7m  [0m [91m                ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m17[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m17[0m   *       - application/json
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m18[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m18[0m   *     parameters:
+[7m  [0m [91m                  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m19[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m19[0m   *       - name: body
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m19[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m19[0m   *       - name: body
+[7m  [0m [91m                ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m20[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m20[0m   *         description: user data.
+[7m  [0m [91m                       ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m20[0m:[93m26[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m20[0m   *         description: user data.
+[7m  [0m [91m                         ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m21[0m:[93m3[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m21[0m   *         in: body
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m21[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m21[0m   *         in: body
+[7m  [0m [91m            ~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m21[0m:[93m15[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m21[0m   *         in: body
+[7m  [0m [91m              ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m22[0m:[93m21[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m22[0m   *         required: true
+[7m  [0m [91m                    ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m23[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m23[0m   *         schema:
+[7m  [0m [91m                  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m24[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m24[0m   *           $ref: '#/definitions/Create'
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m24[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m24[0m   *           $ref: '#/definitions/Create'
+[7m  [0m [91m                  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m25[0m:[93m18[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m25[0m   *     responses:
+[7m  [0m [91m                 ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m26[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m   *       200:
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m26[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m26[0m   *       200:
+[7m  [0m [91m             ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   *         description: success
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m27[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m27[0m   *         description: success
+[7m  [0m [91m                       ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m28[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m28[0m   * definitions:
+[7m  [0m [91m               ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m29[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m29[0m   *    Create:
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m29[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m29[0m   *    Create:
+[7m  [0m [91m             ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m30[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m30[0m   *      required:
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m30[0m:[93m18[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m30[0m   *      required:
+[7m  [0m [91m                 ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m31[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m31[0m   *          - name
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m33[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m33[0m   *      properties:
+[7m  [0m [91m                   ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m34[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m34[0m   *        name:
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m34[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m34[0m   *        name:
+[7m  [0m [91m               ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m35[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m35[0m   *          type: string
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m35[0m:[93m18[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m35[0m   *          type: string
+[7m  [0m [91m                 ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m36[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m36[0m   *          description: User name
+[7m  [0m [91m                        ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m36[0m:[93m27[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m36[0m   *          description: User name
+[7m  [0m [91m                          ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m37[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m37[0m   *        level:
+[7m  [0m [91m                ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m38[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m38[0m   *          type: enum
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m38[0m:[93m18[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m38[0m   *          type: enum
+[7m  [0m [91m                 ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m39[0m:[93m3[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m39[0m   *          description: User email
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m39[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m39[0m   *          description: User email
+[7m  [0m [91m                        ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m39[0m:[93m27[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m39[0m   *          description: User email
+[7m  [0m [91m                          ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m40[0m:[93m5[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.
+
+[7m40[0m   */
+[7m  [0m [91m    [0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m42[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m42[0m   public createBranch = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m53[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m53[0m   public getAllBranches = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m63[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m63[0m   public getBranchById = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m74[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m74[0m   public updateBranch = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m86[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m86[0m   public deleteBranch = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m96[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m96[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m12[0m:[93m7[0m - [91merror[0m[90m TS2304: [0mCannot find name 'post'.
+
+[7m12[0m   *   post:
+[7m  [0m [91m      ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m13[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'tags'.
+
+[7m13[0m   *     tags:
+[7m  [0m [91m        ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m14[0m:[93m12[0m - [91merror[0m[90m TS2304: [0mCannot find name 'department'.
+
+[7m14[0m   *      - department CRUD
+[7m  [0m [91m           ~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m14[0m:[93m23[0m - [91merror[0m[90m TS2304: [0mCannot find name 'CRUD'.
+
+[7m14[0m   *      - department CRUD
+[7m  [0m [91m                      ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m15[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'description'.
+
+[7m15[0m   *     description: Cerate department
+[7m  [0m [91m        ~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m15[0m:[93m22[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Cerate'.
+
+[7m15[0m   *     description: Cerate department
+[7m  [0m [91m                     ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m15[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'department'.
+
+[7m15[0m   *     description: Cerate department
+[7m  [0m [91m                            ~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m16[0m:[93m9[0m - [91merror[0m[90m TS2552: [0mCannot find name 'produces'. Did you mean 'process'?
+
+[7m16[0m   *     produces:
+[7m  [0m [91m        ~~~~~~~~[0m
+
+  [96mnode_modules/@types/node/globals.d.ts[0m:[93m27[0m:[93m13[0m
+    [7m27[0m declare var process: NodeJS.Process;
+    [7m  [0m [96m            ~~~~~~~[0m
+    'process' is declared here.
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m17[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'application'.
+
+[7m17[0m   *       - application/json
+[7m  [0m [91m            ~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m17[0m:[93m25[0m - [91merror[0m[90m TS2552: [0mCannot find name 'json'. Did you mean 'JSON'?
+
+[7m17[0m   *       - application/json
+[7m  [0m [91m                        ~~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.es5.d.ts[0m:[93m1159[0m:[93m13[0m
+    [7m1159[0m declare var JSON: JSON;
+    [7m    [0m [96m            ~~~~[0m
+    'JSON' is declared here.
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m18[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'parameters'.
+
+[7m18[0m   *     parameters:
+[7m  [0m [91m        ~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m19[0m:[93m19[0m - [91merror[0m[90m TS2304: [0mCannot find name 'body'.
+
+[7m19[0m   *       - name: body
+[7m  [0m [91m                  ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m20[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'description'.
+
+[7m20[0m   *         description: user data.
+[7m  [0m [91m            ~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m20[0m:[93m26[0m - [91merror[0m[90m TS2304: [0mCannot find name 'user'.
+
+[7m20[0m   *         description: user data.
+[7m  [0m [91m                         ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m20[0m:[93m31[0m - [91merror[0m[90m TS2304: [0mCannot find name 'data'.
+
+[7m20[0m   *         description: user data.
+[7m  [0m [91m                              ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m21[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'body'.
+
+[7m21[0m   *         in: body
+[7m  [0m [91m                ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m22[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'required'.
+
+[7m22[0m   *         required: true
+[7m  [0m [91m            ~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m22[0m:[93m23[0m - [91merror[0m[90m TS2362: [0mThe left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+[7m22[0m   *         required: true
+[7m  [0m [91m                      ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'schema'.
+
+[7m23[0m   *         schema:
+[7m  [0m [91m            ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m24[0m:[93m15[0m - [91merror[0m[90m TS2304: [0mCannot find name '$ref'.
+
+[7m24[0m   *           $ref: '#/definitions/Create'
+[7m  [0m [91m              ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m24[0m:[93m21[0m - [91merror[0m[90m TS2362: [0mThe left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+[7m24[0m   *           $ref: '#/definitions/Create'
+[7m  [0m [91m                    ~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m25[0m:[93m9[0m - [91merror[0m[90m TS2304: [0mCannot find name 'responses'.
+
+[7m25[0m   *     responses:
+[7m  [0m [91m        ~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m27[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'description'.
+
+[7m27[0m   *         description: success
+[7m  [0m [91m            ~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m27[0m:[93m26[0m - [91merror[0m[90m TS2304: [0mCannot find name 'success'.
+
+[7m27[0m   *         description: success
+[7m  [0m [91m                         ~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m28[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'definitions'.
+
+[7m28[0m   * definitions:
+[7m  [0m [91m    ~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m29[0m:[93m8[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Create'.
+
+[7m29[0m   *    Create:
+[7m  [0m [91m       ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m30[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'required'.
+
+[7m30[0m   *      required:
+[7m  [0m [91m         ~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m32[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'level'.
+
+[7m32[0m   *          - level
+[7m  [0m [91m               ~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m33[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'properties'.
+
+[7m33[0m   *      properties:
+[7m  [0m [91m         ~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m34[0m:[93m12[0m - [91merror[0m[90m TS2363: [0mThe right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+[7m34[0m   *        name:
+[7m  [0m [91m           ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m35[0m:[93m14[0m - [91merror[0m[90m TS2304: [0mCannot find name 'type'.
+
+[7m35[0m   *          type: string
+[7m  [0m [91m             ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m35[0m:[93m20[0m - [91merror[0m[90m TS2693: [0m'string' only refers to a type, but is being used as a value here.
+
+[7m35[0m   *          type: string
+[7m  [0m [91m                   ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m36[0m:[93m14[0m - [91merror[0m[90m TS2304: [0mCannot find name 'description'.
+
+[7m36[0m   *          description: User name
+[7m  [0m [91m             ~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m36[0m:[93m27[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m36[0m   *          description: User name
+[7m  [0m [91m                          ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m36[0m:[93m32[0m - [91merror[0m[90m TS2362: [0mThe left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+[7m36[0m   *          description: User name
+[7m  [0m [91m                               ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m37[0m:[93m12[0m - [91merror[0m[90m TS2304: [0mCannot find name 'level'.
+
+[7m37[0m   *        level:
+[7m  [0m [91m           ~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m38[0m:[93m14[0m - [91merror[0m[90m TS2304: [0mCannot find name 'type'.
+
+[7m38[0m   *          type: enum
+[7m  [0m [91m             ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m39[0m:[93m14[0m - [91merror[0m[90m TS2304: [0mCannot find name 'description'.
+
+[7m39[0m   *          description: User email
+[7m  [0m [91m             ~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m39[0m:[93m27[0m - [91merror[0m[90m TS2304: [0mCannot find name 'User'.
+
+[7m39[0m   *          description: User email
+[7m  [0m [91m                          ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m39[0m:[93m32[0m - [91merror[0m[90m TS2304: [0mCannot find name 'email'.
+
+[7m39[0m   *          description: User email
+[7m  [0m [91m                               ~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m40[0m:[93m4[0m - [91merror[0m[90m TS2363: [0mThe right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+[7m40[0m   */
+[7m  [0m [91m   ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m42[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'createBranch'.
+
+[7m42[0m   public createBranch = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m         ~~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m45[0m:[93m35[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.
+
+[7m45[0m       const data: IBranch = await this.branchService.createBranch(departmentData);
+[7m  [0m [91m                                  ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m53[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getAllBranches'.
+
+[7m53[0m   public getAllBranches = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m         ~~~~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m55[0m:[93m37[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.
+
+[7m55[0m       const data: IBranch[] = await this.branchService.findAllBranches();
+[7m  [0m [91m                                    ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m63[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'getBranchById'.
+
+[7m63[0m   public getBranchById = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m         ~~~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m66[0m:[93m35[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.
+
+[7m66[0m       const data: IBranch = await this.branchService.findBranchById(id);
+[7m  [0m [91m                                  ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m74[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'updateBranch'.
+
+[7m74[0m   public updateBranch = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m         ~~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m78[0m:[93m26[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.
+
+[7m78[0m       const data = await this.branchService.updateBranch(id, branchData);
+[7m  [0m [91m                         ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m86[0m:[93m10[0m - [91merror[0m[90m TS2304: [0mCannot find name 'deleteBranch'.
+
+[7m86[0m   public deleteBranch = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m         ~~~~~~~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m89[0m:[93m26[0m - [91merror[0m[90m TS2532: [0mObject is possibly 'undefined'.
+
+[7m89[0m       const data = await this.branchService.deleteBranch(id);
+[7m  [0m [91m                         ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m9[0m   * @swagger
+[7m [0m [91m    ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m11[0m   * /department/create:
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m11[0m:[93m5[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m11[0m   * /department/create:
+[7m  [0m [91m    ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m11[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m11[0m   * /department/create:
+[7m  [0m [91m                      ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m12[0m   *   post:
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m12[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m12[0m   *   post:
+[7m  [0m [91m          ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m13[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m13[0m   *     tags:
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m13[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m13[0m   *     tags:
+[7m  [0m [91m            ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m14[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m14[0m   *      - department CRUD
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m14[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m14[0m   *      - department CRUD
+[7m  [0m [91m                      ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m15[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m15[0m   *     description: Cerate department
+[7m  [0m [91m                   ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m15[0m:[93m22[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m15[0m   *     description: Cerate department
+[7m  [0m [91m                     ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m16[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m16[0m   *     produces:
+[7m  [0m [91m                ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m17[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m17[0m   *       - application/json
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m18[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m18[0m   *     parameters:
+[7m  [0m [91m                  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m19[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m19[0m   *       - name: body
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m19[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m19[0m   *       - name: body
+[7m  [0m [91m                ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m20[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m20[0m   *         description: user data.
+[7m  [0m [91m                       ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m20[0m:[93m26[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m20[0m   *         description: user data.
+[7m  [0m [91m                         ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m21[0m:[93m3[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m21[0m   *         in: body
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m21[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m21[0m   *         in: body
+[7m  [0m [91m            ~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m21[0m:[93m15[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m21[0m   *         in: body
+[7m  [0m [91m              ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m22[0m:[93m21[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m22[0m   *         required: true
+[7m  [0m [91m                    ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m23[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m23[0m   *         schema:
+[7m  [0m [91m                  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m24[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m24[0m   *           $ref: '#/definitions/Create'
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m24[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m24[0m   *           $ref: '#/definitions/Create'
+[7m  [0m [91m                  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m25[0m:[93m18[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m25[0m   *     responses:
+[7m  [0m [91m                 ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m26[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m   *       200:
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m26[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m26[0m   *       200:
+[7m  [0m [91m             ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   *         description: success
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m27[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m27[0m   *         description: success
+[7m  [0m [91m                       ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m28[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m28[0m   * definitions:
+[7m  [0m [91m               ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m29[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m29[0m   *    Create:
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m29[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m29[0m   *    Create:
+[7m  [0m [91m             ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m30[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m30[0m   *      required:
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m30[0m:[93m18[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m30[0m   *      required:
+[7m  [0m [91m                 ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m31[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m31[0m   *          - name
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m33[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m33[0m   *      properties:
+[7m  [0m [91m                   ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m34[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m34[0m   *        name:
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m34[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m34[0m   *        name:
+[7m  [0m [91m               ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m35[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m35[0m   *          type: string
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m35[0m:[93m18[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m35[0m   *          type: string
+[7m  [0m [91m                 ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m36[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m36[0m   *          description: User name
+[7m  [0m [91m                        ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m36[0m:[93m27[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m36[0m   *          description: User name
+[7m  [0m [91m                          ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m37[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m37[0m   *        level:
+[7m  [0m [91m                ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m38[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m38[0m   *          type: enum
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m38[0m:[93m18[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m38[0m   *          type: enum
+[7m  [0m [91m                 ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m39[0m:[93m3[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m39[0m   *          description: User email
+[7m  [0m [91m  ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m39[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m39[0m   *          description: User email
+[7m  [0m [91m                        ~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m39[0m:[93m27[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m39[0m   *          description: User email
+[7m  [0m [91m                          ~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m40[0m:[93m5[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.
+
+[7m40[0m   */
+[7m  [0m [91m    [0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m42[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m42[0m   public createBranch = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m53[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m53[0m   public getAllBranches = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m63[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m63[0m   public getBranchById = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m74[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m74[0m   public updateBranch = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m86[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m86[0m   public deleteBranch = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/controllers/branch/branch.controller.ts[0m:[93m96[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m96[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T10:41:04.677ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/swagger.utils.ts[0m:[93m30[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Designation'.
+
+[7m30[0m     Designation,
+[7m  [0m [91m    ~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/swagger.utils.ts[0m:[93m30[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Designation'.
+
+[7m30[0m     Designation,
+[7m  [0m [91m    ~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T10:41:13.122ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/swagger.utils.ts[0m:[93m30[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Designation'.
+
+[7m30[0m     Designation,
+[7m  [0m [91m    ~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/swagger.utils.ts[0m:[93m30[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Designation'.
+
+[7m30[0m     Designation,
+[7m  [0m [91m    ~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-16T10:43:19.757ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/swagger.utils.ts[0m:[93m38[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'UserProfile'.
+
+[7m38[0m     UserProfile,
+[7m  [0m [91m    ~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/swagger.utils.ts[0m:[93m38[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'UserProfile'.
+
+[7m38[0m     UserProfile,
+[7m  [0m [91m    ~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)

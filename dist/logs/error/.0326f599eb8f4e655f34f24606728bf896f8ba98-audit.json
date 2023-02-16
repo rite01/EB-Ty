@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/thoughtwin/Documents/EB_Ty/dist/logs/error/.0326f599eb8f4e655f34f24606728bf896f8ba98-audit.json",
+    "files": [
+        {
+            "date": 1671193276930,
+            "name": "/home/thoughtwin/Documents/EB_Ty/dist/logs/error/2022-12-16.log",
+            "hash": "284ea5dae81b95fc184095beafc95dffbc2e542e270944a3da7e254aed93c407"
+        }
+    ],
+    "hashType": "sha256"
+}

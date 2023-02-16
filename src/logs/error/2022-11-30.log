@@ -1,0 +1,39 @@
+[ExpressJS] [ERROR] - 2022-11-30T12:49:05.880ZuncaughtException: Function not implemented.
+Error: Function not implemented.
+    at cors (/home/thoughtwin/Documents/EB_Ty/src/app.ts:107:11)
+    at App.initializeMiddlewares (/home/thoughtwin/Documents/EB_Ty/src/app.ts:70:18)
+    at new App (/home/thoughtwin/Documents/EB_Ty/src/app.ts:31:10)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/app.ts:105:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[ExpressJS] [ERROR] - 2022-11-30T12:49:05.883ZUNCAUGHT EXCEPTION! Error: Function not implemented.
+[ExpressJS] [ERROR] - 2022-11-30T12:49:11.276ZuncaughtException: Function not implemented.
+Error: Function not implemented.
+    at cors (/home/thoughtwin/Documents/EB_Ty/src/app.ts:108:11)
+    at App.initializeMiddlewares (/home/thoughtwin/Documents/EB_Ty/src/app.ts:71:18)
+    at new App (/home/thoughtwin/Documents/EB_Ty/src/app.ts:32:10)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/app.ts:106:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[ExpressJS] [ERROR] - 2022-11-30T12:49:11.279ZUNCAUGHT EXCEPTION! Error: Function not implemented.
+[ExpressJS] [ERROR] - 2022-11-30T12:49:57.539ZuncaughtException: Function not implemented.
+Error: Function not implemented.
+    at cors (/home/thoughtwin/Documents/EB_Ty/src/app.ts:108:11)
+    at App.initializeMiddlewares (/home/thoughtwin/Documents/EB_Ty/src/app.ts:71:18)
+    at new App (/home/thoughtwin/Documents/EB_Ty/src/app.ts:32:10)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/app.ts:106:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[ExpressJS] [ERROR] - 2022-11-30T12:49:57.541ZUNCAUGHT EXCEPTION! Error: Function not implemented.

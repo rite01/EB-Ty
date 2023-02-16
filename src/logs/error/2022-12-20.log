@@ -1,0 +1,599 @@
+[Node] [ERROR] - 2022-12-20T05:59:44.961Z500 - /api/v1/users/pagination [GET] - model.slice is not a function 
+[Node] [ERROR] - 2022-12-20T06:04:28.479Z500 - /api/v1/users/pagination?page=2&limit=10 [GET] - model.slice is not a function 
+[Node] [ERROR] - 2022-12-20T06:04:29.422Z500 - /api/v1/users/pagination?page=2&limit=10 [GET] - model.slice is not a function 
+[Node] [ERROR] - 2022-12-20T06:06:29.860ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m125[0m:[93m29[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string | string[] | ParsedQs | ParsedQs[]' is not assignable to parameter of type 'string'.
+  Type 'string[]' is not assignable to type 'string'.
+
+[7m125[0m       const page = parseInt(req.query.page);
+[7m   [0m [91m                            ~~~~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m126[0m:[93m30[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string | string[] | ParsedQs | ParsedQs[]' is not assignable to parameter of type 'string'.
+
+[7m126[0m       const limit = parseInt(req.query.limit);
+[7m   [0m [91m                             ~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m125[0m:[93m29[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string | string[] | ParsedQs | ParsedQs[]' is not assignable to parameter of type 'string'.
+  Type 'string[]' is not assignable to type 'string'.
+
+[7m125[0m       const page = parseInt(req.query.page);
+[7m   [0m [91m                            ~~~~~~~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m126[0m:[93m30[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string | string[] | ParsedQs | ParsedQs[]' is not assignable to parameter of type 'string'.
+
+[7m126[0m       const limit = parseInt(req.query.limit);
+[7m   [0m [91m                             ~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-20T06:07:50.840ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m128[0m:[93m71[0m - [91merror[0m[90m TS2554: [0mExpected 0 arguments, but got 1.
+
+[7m128[0m       const findAllUsersData:any = await this.userService.findAllUser({
+[7m   [0m [91m                                                                      ~[0m
+[7m129[0m         limit,
+[7m   [0m [91m~~~~~~~~~~~~~~[0m
+[7m130[0m         page,
+[7m   [0m [91m~~~~~~~~~~~~~[0m
+[7m131[0m       });
+[7m   [0m [91m~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m128[0m:[93m71[0m - [91merror[0m[90m TS2554: [0mExpected 0 arguments, but got 1.
+
+[7m128[0m       const findAllUsersData:any = await this.userService.findAllUser({
+[7m   [0m [91m                                                                      ~[0m
+[7m129[0m         limit,
+[7m   [0m [91m~~~~~~~~~~~~~~[0m
+[7m130[0m         page,
+[7m   [0m [91m~~~~~~~~~~~~~[0m
+[7m131[0m       });
+[7m   [0m [91m~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-20T06:08:15.098ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m128[0m:[93m71[0m - [91merror[0m[90m TS2554: [0mExpected 0 arguments, but got 1.
+
+[7m128[0m       const findAllUsersData:any = await this.userService.findAllUser({
+[7m   [0m [91m                                                                      ~[0m
+[7m129[0m         limit,
+[7m   [0m [91m~~~~~~~~~~~~~~[0m
+[7m130[0m         page,
+[7m   [0m [91m~~~~~~~~~~~~~[0m
+[7m131[0m       });
+[7m   [0m [91m~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m128[0m:[93m71[0m - [91merror[0m[90m TS2554: [0mExpected 0 arguments, but got 1.
+
+[7m128[0m       const findAllUsersData:any = await this.userService.findAllUser({
+[7m   [0m [91m                                                                      ~[0m
+[7m129[0m         limit,
+[7m   [0m [91m~~~~~~~~~~~~~~[0m
+[7m130[0m         page,
+[7m   [0m [91m~~~~~~~~~~~~~[0m
+[7m131[0m       });
+[7m   [0m [91m~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-20T06:08:21.937ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m128[0m:[93m59[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.
+
+[7m128[0m       const findAllUsersData:any = await this.userService.findAllUser({
+[7m   [0m [91m                                                          ~~~~~~~~~~~~~[0m
+[7m129[0m         limit,
+[7m   [0m [91m~~~~~~~~~~~~~~[0m
+[7m130[0m         page,
+[7m   [0m [91m~~~~~~~~~~~~~[0m
+[7m131[0m       });
+[7m   [0m [91m~~~~~~~~[0m
+
+  [96msrc/services/user/index.ts[0m:[93m72[0m:[93m34[0m
+    [7m72[0m   public async findAllUser(page, limit) {
+    [7m  [0m [96m                                 ~~~~~[0m
+    An argument for 'limit' was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m128[0m:[93m59[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.
+
+[7m128[0m       const findAllUsersData:any = await this.userService.findAllUser({
+[7m   [0m [91m                                                          ~~~~~~~~~~~~~[0m
+[7m129[0m         limit,
+[7m   [0m [91m~~~~~~~~~~~~~~[0m
+[7m130[0m         page,
+[7m   [0m [91m~~~~~~~~~~~~~[0m
+[7m131[0m       });
+[7m   [0m [91m~~~~~~~~[0m
+
+  [96msrc/services/user/index.ts[0m:[93m72[0m:[93m34[0m
+    [7m72[0m   public async findAllUser(page, limit) {
+    [7m  [0m [96m                                 ~~~~~[0m
+    An argument for 'limit' was not provided.
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-20T06:08:31.556ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m128[0m:[93m59[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.
+
+[7m128[0m       const findAllUsersData:any = await this.userService.findAllUser({
+[7m   [0m [91m                                                          ~~~~~~~~~~~~~[0m
+[7m129[0m         limit,
+[7m   [0m [91m~~~~~~~~~~~~~~[0m
+[7m130[0m         page,
+[7m   [0m [91m~~~~~~~~~~~~~[0m
+[7m131[0m       });
+[7m   [0m [91m~~~~~~~~[0m
+
+  [96msrc/services/user/index.ts[0m:[93m72[0m:[93m38[0m
+    [7m72[0m   public async findAllUser(page:any, limit:any) {
+    [7m  [0m [96m                                     ~~~~~~~~~[0m
+    An argument for 'limit' was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m128[0m:[93m59[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.
+
+[7m128[0m       const findAllUsersData:any = await this.userService.findAllUser({
+[7m   [0m [91m                                                          ~~~~~~~~~~~~~[0m
+[7m129[0m         limit,
+[7m   [0m [91m~~~~~~~~~~~~~~[0m
+[7m130[0m         page,
+[7m   [0m [91m~~~~~~~~~~~~~[0m
+[7m131[0m       });
+[7m   [0m [91m~~~~~~~~[0m
+
+  [96msrc/services/user/index.ts[0m:[93m72[0m:[93m38[0m
+    [7m72[0m   public async findAllUser(page:any, limit:any) {
+    [7m  [0m [96m                                     ~~~~~~~~~[0m
+    An argument for 'limit' was not provided.
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-20T06:08:46.711ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m72[0m:[93m36[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'any'.
+
+[7m72[0m   public async findAllUser({ page: any, limit: any }) {
+[7m  [0m [91m                                   ~~~[0m
+[96msrc/services/user/index.ts[0m:[93m72[0m:[93m48[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'any'.
+
+[7m72[0m   public async findAllUser({ page: any, limit: any }) {
+[7m  [0m [91m                                               ~~~[0m
+[96msrc/services/user/index.ts[0m:[93m74[0m:[93m15[0m - [91merror[0m[90m TS2304: [0mCannot find name 'page'.
+
+[7m74[0m       offset: page,
+[7m  [0m [91m              ~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m75[0m:[93m14[0m - [91merror[0m[90m TS2304: [0mCannot find name 'pageSize'.
+
+[7m75[0m       limit: pageSize,
+[7m  [0m [91m             ~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m72[0m:[93m36[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'any'.
+
+[7m72[0m   public async findAllUser({ page: any, limit: any }) {
+[7m  [0m [91m                                   ~~~[0m
+[96msrc/services/user/index.ts[0m:[93m72[0m:[93m48[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'any'.
+
+[7m72[0m   public async findAllUser({ page: any, limit: any }) {
+[7m  [0m [91m                                               ~~~[0m
+[96msrc/services/user/index.ts[0m:[93m74[0m:[93m15[0m - [91merror[0m[90m TS2304: [0mCannot find name 'page'.
+
+[7m74[0m       offset: page,
+[7m  [0m [91m              ~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m75[0m:[93m14[0m - [91merror[0m[90m TS2304: [0mCannot find name 'pageSize'.
+
+[7m75[0m       limit: pageSize,
+[7m  [0m [91m             ~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-20T06:08:56.314ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m72[0m:[93m36[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'any'.
+
+[7m72[0m   public async findAllUser({ page: any, limit: any }) {
+[7m  [0m [91m                                   ~~~[0m
+[96msrc/services/user/index.ts[0m:[93m72[0m:[93m48[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'any'.
+
+[7m72[0m   public async findAllUser({ page: any, limit: any }) {
+[7m  [0m [91m                                               ~~~[0m
+[96msrc/services/user/index.ts[0m:[93m74[0m:[93m15[0m - [91merror[0m[90m TS2304: [0mCannot find name 'page'.
+
+[7m74[0m       offset: page,
+[7m  [0m [91m              ~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m75[0m:[93m7[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'limit'. Either declare one or provide an initializer.
+
+[7m75[0m       limit,
+[7m  [0m [91m      ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m72[0m:[93m36[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'any'.
+
+[7m72[0m   public async findAllUser({ page: any, limit: any }) {
+[7m  [0m [91m                                   ~~~[0m
+[96msrc/services/user/index.ts[0m:[93m72[0m:[93m48[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'any'.
+
+[7m72[0m   public async findAllUser({ page: any, limit: any }) {
+[7m  [0m [91m                                               ~~~[0m
+[96msrc/services/user/index.ts[0m:[93m74[0m:[93m15[0m - [91merror[0m[90m TS2304: [0mCannot find name 'page'.
+
+[7m74[0m       offset: page,
+[7m  [0m [91m              ~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m75[0m:[93m7[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'limit'. Either declare one or provide an initializer.
+
+[7m75[0m       limit,
+[7m  [0m [91m      ~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-20T06:09:57.306ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m72[0m:[93m36[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'limit'.
+
+[7m72[0m   public async findAllUser({ page, limit }) {
+[7m  [0m [91m                                   ~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m74[0m:[93m11[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'limit'.
+
+[7m74[0m     const limit = offset + pageSize;
+[7m  [0m [91m          ~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m73[0m:[93m27[0m - [91merror[0m[90m TS2304: [0mCannot find name 'pageSize'.
+
+[7m73[0m     const offset = page * pageSize;
+[7m  [0m [91m                          ~~~~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m74[0m:[93m28[0m - [91merror[0m[90m TS2304: [0mCannot find name 'pageSize'.
+
+[7m74[0m     const limit = offset + pageSize;
+[7m  [0m [91m                           ~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m72[0m:[93m36[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'limit'.
+
+[7m72[0m   public async findAllUser({ page, limit }) {
+[7m  [0m [91m                                   ~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m74[0m:[93m11[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'limit'.
+
+[7m74[0m     const limit = offset + pageSize;
+[7m  [0m [91m          ~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m73[0m:[93m27[0m - [91merror[0m[90m TS2304: [0mCannot find name 'pageSize'.
+
+[7m73[0m     const offset = page * pageSize;
+[7m  [0m [91m                          ~~~~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m74[0m:[93m28[0m - [91merror[0m[90m TS2304: [0mCannot find name 'pageSize'.
+
+[7m74[0m     const limit = offset + pageSize;
+[7m  [0m [91m                           ~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-20T06:10:20.669ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m129[0m:[93m9[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ pageSize: any; page: number; }' is not assignable to parameter of type '{ page: any; limit: any; }'.
+  Object literal may only specify known properties, and 'pageSize' does not exist in type '{ page: any; limit: any; }'.
+
+[7m129[0m         pageSize,
+[7m   [0m [91m        ~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m129[0m:[93m9[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'pageSize'. Either declare one or provide an initializer.
+
+[7m129[0m         pageSize,
+[7m   [0m [91m        ~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m129[0m:[93m9[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ pageSize: any; page: number; }' is not assignable to parameter of type '{ page: any; limit: any; }'.
+  Object literal may only specify known properties, and 'pageSize' does not exist in type '{ page: any; limit: any; }'.
+
+[7m129[0m         pageSize,
+[7m   [0m [91m        ~~~~~~~~[0m
+[96msrc/controllers/user/users.controller.ts[0m:[93m129[0m:[93m9[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'pageSize'. Either declare one or provide an initializer.
+
+[7m129[0m         pageSize,
+[7m   [0m [91m        ~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-20T06:10:28.597ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m129[0m:[93m9[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ pageSize: number; page: number; }' is not assignable to parameter of type '{ page: any; limit: any; }'.
+  Object literal may only specify known properties, and 'pageSize' does not exist in type '{ page: any; limit: any; }'.
+
+[7m129[0m         pageSize,
+[7m   [0m [91m        ~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/user/users.controller.ts[0m:[93m129[0m:[93m9[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ pageSize: number; page: number; }' is not assignable to parameter of type '{ page: any; limit: any; }'.
+  Object literal may only specify known properties, and 'pageSize' does not exist in type '{ page: any; limit: any; }'.
+
+[7m129[0m         pageSize,
+[7m   [0m [91m        ~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-20T06:27:30.471ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/fs.utils.ts[0m:[93m51[0m:[93m8[0m - [91merror[0m[90m TS2304: [0mCannot find name 'paginate'.
+
+[7m51[0m public paginate = ({ page, pageSize }) => {
+[7m  [0m [91m       ~~~~~~~~[0m
+[96msrc/utils/fs.utils.ts[0m:[93m51[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m51[0m public paginate = ({ page, pageSize }) => {
+[7m  [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/fs.utils.ts[0m:[93m51[0m:[93m8[0m - [91merror[0m[90m TS2304: [0mCannot find name 'paginate'.
+
+[7m51[0m public paginate = ({ page, pageSize }) => {
+[7m  [0m [91m       ~~~~~~~~[0m
+[96msrc/utils/fs.utils.ts[0m:[93m51[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m51[0m public paginate = ({ page, pageSize }) => {
+[7m  [0m [91m~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-20T06:28:35.422ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m16[0m:[93m26[0m - [91merror[0m[90m TS2663: [0mCannot find name 'paginate'. Did you mean the instance member 'this.paginate'?
+
+[7m16[0m   private paginate = new paginate();
+[7m  [0m [91m                         ~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m16[0m:[93m26[0m - [91merror[0m[90m TS2663: [0mCannot find name 'paginate'. Did you mean the instance member 'this.paginate'?
+
+[7m16[0m   private paginate = new paginate();
+[7m  [0m [91m                         ~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-20T06:28:46.126ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m17[0m:[93m22[0m - [91merror[0m[90m TS2350: [0mOnly a void function can be called with the 'new' keyword.
+
+[7m17[0m   private paginate = new paginate();
+[7m  [0m [91m                     ~~~~~~~~~~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m17[0m:[93m22[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m17[0m   private paginate = new paginate();
+[7m  [0m [91m                     ~~~~~~~~~~~~~~[0m
+
+  [96msrc/utils/fs.utils.ts[0m:[93m51[0m:[93m26[0m
+    [7m51[0m export const paginate = ({ page, pageSize }) => {
+    [7m  [0m [96m                         ~~~~~~~~~~~~~~~~~~[0m
+    An argument matching this binding pattern was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m17[0m:[93m22[0m - [91merror[0m[90m TS2350: [0mOnly a void function can be called with the 'new' keyword.
+
+[7m17[0m   private paginate = new paginate();
+[7m  [0m [91m                     ~~~~~~~~~~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m17[0m:[93m22[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m17[0m   private paginate = new paginate();
+[7m  [0m [91m                     ~~~~~~~~~~~~~~[0m
+
+  [96msrc/utils/fs.utils.ts[0m:[93m51[0m:[93m26[0m
+    [7m51[0m export const paginate = ({ page, pageSize }) => {
+    [7m  [0m [96m                         ~~~~~~~~~~~~~~~~~~[0m
+    An argument matching this binding pattern was not provided.
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-20T06:28:57.795ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m17[0m:[93m22[0m - [91merror[0m[90m TS2350: [0mOnly a void function can be called with the 'new' keyword.
+
+[7m17[0m   private paginate = new paginate();
+[7m  [0m [91m                     ~~~~~~~~~~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m17[0m:[93m22[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m17[0m   private paginate = new paginate();
+[7m  [0m [91m                     ~~~~~~~~~~~~~~[0m
+
+  [96msrc/utils/fs.utils.ts[0m:[93m51[0m:[93m26[0m
+    [7m51[0m export const paginate = ({ page, pageSize }) => {
+    [7m  [0m [96m                         ~~~~~~~~~~~~~~~~~~[0m
+    An argument matching this binding pattern was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m17[0m:[93m22[0m - [91merror[0m[90m TS2350: [0mOnly a void function can be called with the 'new' keyword.
+
+[7m17[0m   private paginate = new paginate();
+[7m  [0m [91m                     ~~~~~~~~~~~~~~[0m
+[96msrc/services/user/index.ts[0m:[93m17[0m:[93m22[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m17[0m   private paginate = new paginate();
+[7m  [0m [91m                     ~~~~~~~~~~~~~~[0m
+
+  [96msrc/utils/fs.utils.ts[0m:[93m51[0m:[93m26[0m
+    [7m51[0m export const paginate = ({ page, pageSize }) => {
+    [7m  [0m [96m                         ~~~~~~~~~~~~~~~~~~[0m
+    An argument matching this binding pattern was not provided.
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-20T06:29:28.538ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m17[0m:[93m22[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m17[0m   private paginate = paginate();
+[7m  [0m [91m                     ~~~~~~~~~~[0m
+
+  [96msrc/utils/fs.utils.ts[0m:[93m51[0m:[93m26[0m
+    [7m51[0m export const paginate = ({ page, pageSize }) => {
+    [7m  [0m [96m                         ~~~~~~~~~~~~~~~~~~[0m
+    An argument matching this binding pattern was not provided.
+[96msrc/services/user/index.ts[0m:[93m69[0m:[93m14[0m - [91merror[0m[90m TS2349: [0mThis expression is not callable.
+  Type '{ offset: number; limit: any; }' has no call signatures.
+
+[7m69[0m     } = this.paginate({ page, pageSize });
+[7m  [0m [91m             ~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m17[0m:[93m22[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m17[0m   private paginate = paginate();
+[7m  [0m [91m                     ~~~~~~~~~~[0m
+
+  [96msrc/utils/fs.utils.ts[0m:[93m51[0m:[93m26[0m
+    [7m51[0m export const paginate = ({ page, pageSize }) => {
+    [7m  [0m [96m                         ~~~~~~~~~~~~~~~~~~[0m
+    An argument matching this binding pattern was not provided.
+[96msrc/services/user/index.ts[0m:[93m69[0m:[93m14[0m - [91merror[0m[90m TS2349: [0mThis expression is not callable.
+  Type '{ offset: number; limit: any; }' has no call signatures.
+
+[7m69[0m     } = this.paginate({ page, pageSize });
+[7m  [0m [91m             ~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-20T06:29:33.750ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m17[0m:[93m27[0m - [91merror[0m[90m TS2729: [0mProperty 'paginate' is used before its initialization.
+
+[7m17[0m   private paginate = this.paginate();
+[7m  [0m [91m                          ~~~~~~~~[0m
+
+  [96msrc/services/user/index.ts[0m:[93m17[0m:[93m11[0m
+    [7m17[0m   private paginate = this.paginate();
+    [7m  [0m [96m          ~~~~~~~~[0m
+    'paginate' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/user/index.ts[0m:[93m17[0m:[93m27[0m - [91merror[0m[90m TS2729: [0mProperty 'paginate' is used before its initialization.
+
+[7m17[0m   private paginate = this.paginate();
+[7m  [0m [91m                          ~~~~~~~~[0m
+
+  [96msrc/services/user/index.ts[0m:[93m17[0m:[93m11[0m
+    [7m17[0m   private paginate = this.paginate();
+    [7m  [0m [96m          ~~~~~~~~[0m
+    'paginate' is declared here.
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-20T07:12:27.783Z500 - /api/v1/csv/post [POST] - email test@gmail.com already exist 
+[Node] [ERROR] - 2022-12-20T07:13:52.122Z500 - /api/v1/csv/post [POST] - email test01@gmail.com already exist 
+[Node] [ERROR] - 2022-12-20T07:14:19.328Z500 - /api/v1/csv/post [POST] - Validation error 
+[Node] [ERROR] - 2022-12-20T07:14:46.824Z500 - /api/v1/csv/post [POST] - email undefined already exist 
+[Node] [ERROR] - 2022-12-20T07:15:12.112Z500 - /api/v1/csv/post [POST] - Validation error 
+[Node] [ERROR] - 2022-12-20T07:15:14.535Z500 - /api/v1/csv/post [POST] - Validation error 
+[Node] [ERROR] - 2022-12-20T07:24:04.091Z500 - /api/v1/csv/post [POST] - Validation error 
+[Node] [ERROR] - 2022-12-20T07:32:19.125Z500 - /api/v1/csv/post [POST] - this.build(...).save is not a function 

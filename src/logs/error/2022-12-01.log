@@ -1,0 +1,582 @@
+[Node] [ERROR] - 2022-12-01T06:23:46.903ZuncaughtException: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+Error: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/thoughtwin/Documents/EB_Ty/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+[Node] [ERROR] - 2022-12-01T06:24:26.787ZuncaughtException: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+Error: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/thoughtwin/Documents/EB_Ty/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+[Node] [ERROR] - 2022-12-01T06:24:49.595ZuncaughtException: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+Error: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/thoughtwin/Documents/EB_Ty/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+[Node] [ERROR] - 2022-12-01T06:29:55.346ZuncaughtException: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+Error: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/thoughtwin/Documents/EB_Ty/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+[Node] [ERROR] - 2022-12-01T06:30:23.639ZuncaughtException: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+Error: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/thoughtwin/Documents/EB_Ty/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+[Node] [ERROR] - 2022-12-01T06:31:33.215ZuncaughtException: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+Error: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/thoughtwin/Documents/EB_Ty/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+[Node] [ERROR] - 2022-12-01T06:33:17.163ZuncaughtException: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+Error: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/thoughtwin/Documents/EB_Ty/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+[Node] [ERROR] - 2022-12-01T06:38:24.003ZuncaughtException: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+Error: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/thoughtwin/Documents/EB_Ty/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+[Node] [ERROR] - 2022-12-01T06:43:18.199ZuncaughtException: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+Error: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/thoughtwin/Documents/EB_Ty/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+[Node] [ERROR] - 2022-12-01T06:44:13.661ZuncaughtException: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+Error: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/home/thoughtwin/Documents/EB_Ty/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+[Node] [ERROR] - 2022-12-01T06:47:31.524ZuncaughtException: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+Error: Cannot find module '@app/libs'
+Require stack:
+- /home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts
+- /home/thoughtwin/Documents/EB_Ty/src/routes/index.routes.ts
+- /home/thoughtwin/Documents/EB_Ty/src/app.ts
+- /home/thoughtwin/Documents/EB_Ty/src/index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-046445001765350824.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-046445001765350824.js:114:20)
+[Node] [ERROR] - 2022-12-01T06:47:49.225ZuncaughtException: ⨯ Unable to compile TypeScript:
+src/controllers/index.controller.ts(3,31): error TS2307: Cannot find module '/libs' or its corresponding type declarations.
+
+Error: ⨯ Unable to compile TypeScript:
+src/controllers/index.controller.ts(3,31): error TS2307: Cannot find module '/libs' or its corresponding type declarations.
+
+    at Object.<anonymous> (/home/thoughtwin/Documents/EB_Ty/src/controllers/index.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-046445001765350824.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-046445001765350824.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-046445001765350824.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+[Node] [ERROR] - 2022-12-01T07:07:31.299ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m18[0m ()
+[7m  [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m18[0m:[93m2[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m18[0m ()
+[7m  [0m [91m ~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-01T07:07:36.209ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m18[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'type'.
+
+[7m18[0m (async function name(params:type) {
+[7m  [0m [91m                            ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m18[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'type'.
+
+[7m18[0m (async function name(params:type) {
+[7m  [0m [91m                            ~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-01T07:07:43.381ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m18[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'type'.
+
+[7m18[0m (async function start(params:type) {
+[7m  [0m [91m                             ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m18[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'type'.
+
+[7m18[0m (async function start(params:type) {
+[7m  [0m [91m                             ~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-01T07:07:47.870ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m18[0m:[93m1[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m18[0m (async function start(params:type) {
+[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m19[0m 
+[7m  [0m [91m[0m
+[7m20[0m })();
+[7m  [0m [91m~~~~[0m
+
+  [96msrc/config/dbConnect.ts[0m:[93m18[0m:[93m23[0m
+    [7m18[0m (async function start(params:type) {
+    [7m  [0m [96m                      ~~~~~~~~~~~[0m
+    An argument for 'params' was not provided.
+[96msrc/config/dbConnect.ts[0m:[93m18[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'type'.
+
+[7m18[0m (async function start(params:type) {
+[7m  [0m [91m                             ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m18[0m:[93m1[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m18[0m (async function start(params:type) {
+[7m  [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m19[0m 
+[7m  [0m [91m[0m
+[7m20[0m })();
+[7m  [0m [91m~~~~[0m
+
+  [96msrc/config/dbConnect.ts[0m:[93m18[0m:[93m23[0m
+    [7m18[0m (async function start(params:type) {
+    [7m  [0m [96m                      ~~~~~~~~~~~[0m
+    An argument for 'params' was not provided.
+[96msrc/config/dbConnect.ts[0m:[93m18[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'type'.
+
+[7m18[0m (async function start(params:type) {
+[7m  [0m [91m                             ~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-01T07:08:13.225ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m19[0m:[93m8[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.
+
+[7m19[0m   const
+[7m  [0m [91m       [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m19[0m:[93m8[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.
+
+[7m19[0m   const
+[7m  [0m [91m       [0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-01T07:08:19.589ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m }());
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m }());
+[7m  [0m [91m~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-01T07:08:24.530ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m20[0m }());
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m20[0m }());
+[7m  [0m [91m~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-01T07:08:27.282ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m19[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 's' does not exist on type 'Sequelize'.
+
+[7m19[0m   const tables = await sequelizeConnection.s
+[7m  [0m [91m                                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m19[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 's' does not exist on type 'Sequelize'.
+
+[7m19[0m   const tables = await sequelizeConnection.s
+[7m  [0m [91m                                           ~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-01T07:08:30.352ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m19[0m:[93m44[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m19[0m   const tables = await sequelizeConnection.showAllSchemas()
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/sequelize/types/sequelize.d.ts[0m:[93m1299[0m:[93m25[0m
+    [7m1299[0m   public showAllSchemas(options: Logging): Promise<object[]>;
+    [7m    [0m [96m                        ~~~~~~~~~~~~~~~~[0m
+    An argument for 'options' was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m19[0m:[93m44[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m19[0m   const tables = await sequelizeConnection.showAllSchemas()
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/sequelize/types/sequelize.d.ts[0m:[93m1299[0m:[93m25[0m
+    [7m1299[0m   public showAllSchemas(options: Logging): Promise<object[]>;
+    [7m    [0m [96m                        ~~~~~~~~~~~~~~~~[0m
+    An argument for 'options' was not provided.
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-01T07:09:04.652ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m19[0m:[93m44[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m19[0m   const tables = await sequelizeConnection.({ logging: false });
+[7m  [0m [91m                                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m19[0m:[93m44[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m19[0m   const tables = await sequelizeConnection.({ logging: false });
+[7m  [0m [91m                                           ~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-01T07:10:31.552ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m19[0m:[93m44[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m19[0m   const tables = await sequelizeConnection.({ logging: false });
+[7m  [0m [91m                                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m19[0m:[93m44[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m19[0m   const tables = await sequelizeConnection.({ logging: false });
+[7m  [0m [91m                                           ~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-01T07:11:36.476ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m19[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'sequelizeConnection'.
+
+[7m19[0m export default sequelizeConnection;
+[7m  [0m [91m               ~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m19[0m:[93m16[0m - [91merror[0m[90m TS2304: [0mCannot find name 'sequelizeConnection'.
+
+[7m19[0m export default sequelizeConnection;
+[7m  [0m [91m               ~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+[Node] [ERROR] - 2022-12-01T09:52:22.242Z [App] [bootstrap] Database not connected: self-signed certificate in certificate chain
+[Node] [ERROR] - 2022-12-01T09:54:41.350Z [App] [bootstrap] Database not connected: connect ECONNREFUSED 34.127.45.197:6153
+[Node] [ERROR] - 2022-12-01T10:34:13.139ZuncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m12[0m:[93m12[0m - [91merror[0m[90m TS2367: [0mThis comparison appears to be unintentional because the types 'boolean' and 'string' have no overlap.
+
+[7m12[0m   logging: !!process.env.NODE_ENV === 'development',
+[7m  [0m [91m           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/dbConnect.ts[0m:[93m12[0m:[93m12[0m - [91merror[0m[90m TS2367: [0mThis comparison appears to be unintentional because the types 'boolean' and 'string' have no overlap.
+
+[7m12[0m   logging: !!process.env.NODE_ENV === 'development',
+[7m  [0m [91m           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/thoughtwin/Documents/EB_Ty/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)

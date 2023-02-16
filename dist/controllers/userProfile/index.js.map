@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/controllers/userProfile/index.ts"],"sourcesContent":["export * from './userProfile.controller';\n"],"names":[],"mappings":"AAAA;;;;oBAAc"}

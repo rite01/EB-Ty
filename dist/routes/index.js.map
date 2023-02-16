@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/routes/index.ts"],"sourcesContent":["export * from './index.routes';\nexport * from './deapartment.routes';\nexport * from './branch.routes';\nexport * from './designation.routes';\nexport * from './userProfile.routes';\n"],"names":[],"mappings":"AAAA;;;;oBAAc;oBACA;oBACA;oBACA;oBACA"}
